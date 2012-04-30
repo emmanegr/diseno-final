@@ -29910,3 +29910,959 @@ Served asset /users.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-27 12:19:56 -0500
 Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-04-30 17:22:29 -0500
+
+Mysql2::Error (Unknown database 'diseno_development'):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (32.0ms)
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (42.2ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-04-30 17:25:03 -0500
+
+Mysql2::Error (Unknown database 'diseno_development'):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+  [1m[36m (64.0ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (174.3ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUserSessions (20120424122834)
+  [1m[35m (94.2ms)[0m  CREATE TABLE `sessions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `session_id` varchar(255) NOT NULL, `data` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (162.0ms)[0m  [1mCREATE INDEX `index_sessions_on_session_id` ON `sessions` (`session_id`)[0m
+  [1m[35m (111.1ms)[0m  CREATE INDEX `index_sessions_on_updated_at` ON `sessions` (`updated_at`)
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120424122834')[0m
+Migrating to CreateUsers (20120424122929)
+  [1m[35m (143.0ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `crypted_password` varchar(255) NOT NULL, `password_salt` varchar(255) NOT NULL, `email` varchar(255) NOT NULL, `persistence_token` varchar(255) NOT NULL, `single_access_token` varchar(255) NOT NULL, `perishable_token` varchar(255) NOT NULL, `login_count` int(11) DEFAULT 0 NOT NULL, `failed_login_count` int(11) DEFAULT 0 NOT NULL, `last_request_at` datetime, `current_login_at` datetime, `last_login_at` datetime, `current_login_ip` varchar(255), `last_login_ip` varchar(255), `name` varchar(255) DEFAULT '' NOT NULL, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120424122929')[0m
+Migrating to AddActiveToUsers (20120424131323)
+  [1m[35m (142.2ms)[0m  ALTER TABLE `users` ADD `active` tinyint(1) DEFAULT 0
+  [1m[36m (0.6ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120424131323')[0m
+Migrating to CreateCategorias (20120424145146)
+  [1m[35m (118.1ms)[0m  CREATE TABLE `categorias` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `nombre` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120424145146')[0m
+Migrating to AddAttachmentAvatarToUser (20120424170621)
+  [1m[35m (119.8ms)[0m  ALTER TABLE `users` ADD `avatar_file_name` varchar(255)
+  [1m[36m (122.0ms)[0m  [1mALTER TABLE `users` ADD `avatar_content_type` varchar(255)[0m
+  [1m[35m (109.6ms)[0m  ALTER TABLE `users` ADD `avatar_file_size` int(11)
+  [1m[36m (99.9ms)[0m  [1mALTER TABLE `users` ADD `avatar_updated_at` datetime[0m
+  [1m[35m (0.9ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20120424170621')
+Migrating to AddPrefeToUser (20120425043338)
+  [1m[36m (150.6ms)[0m  [1mALTER TABLE `users` ADD `prefe1` varchar(255)[0m
+  [1m[35m (134.4ms)[0m  ALTER TABLE `users` ADD `prefe2` varchar(255)
+  [1m[36m (143.1ms)[0m  [1mALTER TABLE `users` ADD `prefe3` varchar(255)[0m
+  [1m[35m (0.8ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20120425043338')
+Migrating to AgregarCamposToUser (20120425170023)
+  [1m[36m (111.7ms)[0m  [1mALTER TABLE `users` ADD `nombre` varchar(255)[0m
+  [1m[35m (120.3ms)[0m  ALTER TABLE `users` ADD `apellido` varchar(255)
+  [1m[36m (112.0ms)[0m  [1mALTER TABLE `users` ADD `profesion` varchar(255)[0m
+  [1m[35m (110.5ms)[0m  ALTER TABLE `users` ADD `compania` varchar(255)
+  [1m[36m (111.6ms)[0m  [1mALTER TABLE `users` ADD `web` varchar(255)[0m
+  [1m[35m (111.1ms)[0m  ALTER TABLE `users` ADD `pais` varchar(255)
+  [1m[36m (122.7ms)[0m  [1mALTER TABLE `users` ADD `ciudad` varchar(255)[0m
+  [1m[35m (111.1ms)[0m  ALTER TABLE `users` ADD `about` text
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120425170023')[0m
+Migrating to AddCategoriasToUser (20120425173556)
+  [1m[35m (106.5ms)[0m  CREATE TABLE `categorias_users` (`categoria_id` int(11), `user_id` int(11)) ENGINE=InnoDB
+  [1m[36m (0.6ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120425173556')[0m
+Migrating to CreatePosts (20120425225006)
+  [1m[35m (116.4ms)[0m  CREATE TABLE `posts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `titulo` varchar(255), `subtitulo` varchar(255), `descripcion` text, `user_id` int(11), `gusta` int(11), `nogusta` int(11), `comentarios` text, `vistas` int(11), `categoria_id` int(11), `current_session` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (127.6ms)[0m  [1mCREATE INDEX `index_posts_on_user_id` ON `posts` (`user_id`)[0m
+  [1m[35m (112.8ms)[0m  CREATE INDEX `index_posts_on_categoria_id` ON `posts` (`categoria_id`)
+  [1m[36m (1.1ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120425225006')[0m
+Migrating to CategoriasToPosts (20120425231057)
+  [1m[35m (133.9ms)[0m  CREATE TABLE `categorias_posts` (`post_id` int(11), `categoria_id` int(11)) ENGINE=InnoDB
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120425231057')[0m
+Migrating to CreateComentarios (20120426132131)
+  [1m[35m (151.1ms)[0m  CREATE TABLE `comentarios` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `contenido` text, `user_id` int(11), `post_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (141.2ms)[0m  [1mCREATE INDEX `index_comentarios_on_user_id` ON `comentarios` (`user_id`)[0m
+  [1m[35m (110.6ms)[0m  CREATE INDEX `index_comentarios_on_post_id` ON `comentarios` (`post_id`)
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120426132131')[0m
+  [1m[35m (0.2ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-04-30 17:38:18 -0500
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT `posts`.* FROM `posts` [0m
+Rendered posts/index.html.erb within layouts/application (4.4ms)
+Cache for Asset (application.js) is stale
+/Users/chiki/.rvm/gems/ruby-1.9.2-p290/gems/jquery-rails-1.0.19/vendor/assets/javascripts/jquery.js isn't in paths: /Users/emmanegr/Desktop/diseno-final/app/assets/images, /Users/emmanegr/Desktop/diseno-final/app/assets/javascripts, /Users/emmanegr/Desktop/diseno-final/app/assets/stylesheets, /Users/emmanegr/Desktop/diseno-final/vendor/assets/stylesheets, /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125/gems/jquery-rails-1.0.19/vendor/assets/javascripts
+Compiled application.js  (5ms)  (pid 2970)
+Compiled jquery.js  (26ms)  (pid 2970)
+Compiled jquery_ujs.js  (1ms)  (pid 2970)
+Completed 200 OK in 228ms (Views: 226.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 17:38:19 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 17:38:19 -0500
+Served asset /categorias.css - 200 OK (3ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 17:38:19 -0500
+Served asset /user_sessions.css - 200 OK (1ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 17:38:19 -0500
+Served asset /comentarios.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-30 17:38:19 -0500
+Served asset /jquery_ujs.js - 200 OK (8ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 17:38:19 -0500
+Served asset /posts.css - 200 OK (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 17:38:19 -0500
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 17:38:19 -0500
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2012-04-30 17:38:19 -0500
+Served asset /categorias.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-30 17:38:19 -0500
+Served asset /jquery.js - 200 OK (37ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2012-04-30 17:38:19 -0500
+Served asset /comentarios.js - 200 OK (2ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-04-30 17:38:19 -0500
+Served asset /posts.js - 200 OK (2ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2012-04-30 17:38:19 -0500
+Served asset /user_sessions.js - 200 OK (4ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-04-30 17:38:19 -0500
+Served asset /users.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-30 17:38:19 -0500
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-04-30 17:38:26 -0500
+  Processing by PostsController#new as HTML
+Rendered posts/_form.html.erb (354.2ms)
+Rendered posts/new.html.erb within layouts/application (377.4ms)
+Completed 500 Internal Server Error in 386ms
+
+ActionView::Template::Error (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id):
+    5:     <%= f.input :titulo %>
+    6:     <%= f.input :subtitulo %>
+    7:     <%= f.input :descripcion %>
+    8:     <%= f.text_field :user_id, :value => current_user.id %>
+    9:     <%= f.association :categorias, :as => :check_boxes %>
+    10:     
+    11:   </div>
+  app/views/posts/_form.html.erb:8:in `block in _app_views_posts__form_html_erb__1769483721650085007_70314827286460'
+  app/views/posts/_form.html.erb:1:in `_app_views_posts__form_html_erb__1769483721650085007_70314827286460'
+  app/views/posts/new.html.erb:3:in `_app_views_posts_new_html_erb__3822975488934129669_70314827191220'
+  app/controllers/posts_controller.rb:34:in `new'
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.4ms)
+
+
+Started GET "/user_sessions" for 127.0.0.1 at 2012-04-30 17:39:09 -0500
+
+AbstractController::ActionNotFound (The action 'index' could not be found for UserSessionsController):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-04-30 17:39:22 -0500
+  Processing by UserSessionsController#new as HTML
+Rendered shared/_error_messages.html.erb (0.5ms)
+Rendered user_sessions/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 126ms (Views: 19.7ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 17:39:22 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 17:39:22 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 17:39:22 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 17:39:22 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 17:39:22 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 17:39:22 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:22 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:22 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:22 -0500
+Served asset /comentarios.js - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:22 -0500
+Served asset /categorias.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:22 -0500
+Served asset /posts.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 17:39:22 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:22 -0500
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:22 -0500
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:22 -0500
+Served asset /user_sessions.js - 200 OK (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-04-30 17:39:34 -0500
+  Processing by UsersController#new as HTML
+Rendered shared/_error_messages.html.erb (0.1ms)
+Rendered users/_form.html.erb (4.5ms)
+Rendered users/new.html.erb within layouts/application (53.9ms)
+Completed 200 OK in 70ms (Views: 64.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 17:39:35 -0500
+Served asset /application.css - 200 OK (8ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 17:39:35 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 17:39:35 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 17:39:35 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 17:39:35 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 17:39:35 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 17:39:35 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:35 -0500
+Served asset /comentarios.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:35 -0500
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:35 -0500
+Served asset /user_sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:35 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:35 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:35 -0500
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:35 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:35 -0500
+Served asset /categorias.js - 200 OK (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-04-30 17:39:47 -0500
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hY7P0svrYAT2msN1hJUXJGSyHDMoUJRSrXItlbBNKjg=", "user"=>{"name"=>"emma", "email"=>"emmanegr", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (29.8ms)[0m  [1mSELECT 1 FROM `users` WHERE LOWER(`users`.`email`) = LOWER('emmanegr') LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  SELECT 1 FROM `users` WHERE `users`.`persistence_token` = BINARY '56e67bef5abdfdc9c858aa9ff083431984cfa53e36c7471f000802d838408b5b9f2ee2172e4c33207fee349ef5ebe2c5343533289410f781092cdc010a9b45cf' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM `users` WHERE `users`.`single_access_token` = BINARY 'o5AkG8GBS7ypSGnENDp' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Rendered shared/_error_messages.html.erb (0.7ms)
+Rendered users/_form.html.erb (3.2ms)
+Rendered users/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 214ms (Views: 15.8ms | ActiveRecord: 32.2ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 17:39:47 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 17:39:47 -0500
+Served asset /posts.css - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 17:39:47 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 17:39:47 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 17:39:47 -0500
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 17:39:47 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 17:39:47 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:47 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:47 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:47 -0500
+Served asset /categorias.js - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:47 -0500
+Served asset /comentarios.js - 200 OK (4ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:47 -0500
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:47 -0500
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:47 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2012-04-30 17:39:47 -0500
+Served asset /user_sessions.js - 200 OK (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-04-30 17:40:00 -0500
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hY7P0svrYAT2msN1hJUXJGSyHDMoUJRSrXItlbBNKjg=", "user"=>{"name"=>"emma", "email"=>"emmanegr@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+  [1m[36m (1.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SELECT 1 FROM `users` WHERE LOWER(`users`.`email`) = LOWER('emmanegr@gmail.com') LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mSELECT 1 FROM `users` WHERE `users`.`persistence_token` = BINARY '97dedacb56c8a78aaccf1cf3a6f77a1827d6427f407e47eacf81def68268af3a5879dbc6eb303e1409f360707f291689cd65a7a907e3dae0334162d6e467963d' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM `users` WHERE `users`.`single_access_token` = BINARY 'bChDWkGB39OneqsFwUj' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `users` (`about`, `active`, `apellido`, `avatar_content_type`, `avatar_file_name`, `avatar_file_size`, `avatar_updated_at`, `ciudad`, `compania`, `created_at`, `crypted_password`, `current_login_at`, `current_login_ip`, `email`, `failed_login_count`, `last_login_at`, `last_login_ip`, `last_request_at`, `login_count`, `name`, `nombre`, `pais`, `password_salt`, `perishable_token`, `persistence_token`, `prefe1`, `prefe2`, `prefe3`, `profesion`, `single_access_token`, `updated_at`, `web`) VALUES (NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2012-04-30 22:40:00', '099d4df762941e4e3464f6a754912c29947c4e19f46e10c6af5e8c39455fc79dfbc86d2d4b3d83662e0116f74f4f58bfdfb999e7fb5518c5629ea220cfa15987', NULL, NULL, 'emmanegr@gmail.com', 0, NULL, NULL, NULL, 0, 'emma', NULL, NULL, 'rosYyzCtVmY8b2cO48', 'jthbP2tj33MdDnWcrOq', '97dedacb56c8a78aaccf1cf3a6f77a1827d6427f407e47eacf81def68268af3a5879dbc6eb303e1409f360707f291689cd65a7a907e3dae0334162d6e467963d', NULL, NULL, NULL, NULL, 'bChDWkGB39OneqsFwUj', '2012-04-30 22:40:00', NULL)[0m
+[paperclip] Saving attachments.
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE `users` SET `perishable_token` = 'B6D8liFqdAn21eqH', `updated_at` = '2012-04-30 22:40:00' WHERE `users`.`id` = 1
+[paperclip] Saving attachments.
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+DEPRECATION WARNING: from(value) is deprecated. Please pass :from as hash key to mail() instead. (called from activation_instructions at /Users/emmanegr/Desktop/diseno-final/app/mailers/notifier.rb:4)
+DEPRECATION WARNING: from() is deprecated and will be removed in future versions. (called from activation_instructions at /Users/emmanegr/Desktop/diseno-final/app/mailers/notifier.rb:10)
+DEPRECATION WARNING: from() is deprecated and will be removed in future versions. (called from activation_instructions at /Users/emmanegr/Desktop/diseno-final/app/mailers/notifier.rb:11)
+Rendered notifier/activation_instructions.erb (0.4ms)
+
+Sent mail to emmanegr@gmail.com (4690ms)
+Date: Mon, 30 Apr 2012 17:40:01 -0500
+From: Binary Logic Notifier <noreply@binarylogic.com>
+To: emma <emmanegr@gmail.com>
+Message-ID: <4f9f14c1813a_b9a3ff37138809822414@JuggernautDS.local.mail>
+Subject: Activation Instructions
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+fail-to: Binary Logic Notifier <noreply@binarylogic.com>
+
+Hi.  Click the link below to activate your account.
+
+http://localhost:3000/activate/B6D8liFqdAn21eqH
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 4885ms
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-04-30 17:40:05 -0500
+Served asset /rails.png - 200 OK (1ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-04-30 17:40:28 -0500
+  Processing by UserSessionsController#new as HTML
+Rendered shared/_error_messages.html.erb (0.0ms)
+Rendered user_sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 60ms (Views: 14.1ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 17:40:28 -0500
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 17:40:28 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-30 17:40:28 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 17:40:28 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 17:40:28 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 17:40:28 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 17:40:28 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2012-04-30 17:40:28 -0500
+Served asset /categorias.js - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2012-04-30 17:40:28 -0500
+Served asset /user_sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-30 17:40:28 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-04-30 17:40:28 -0500
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 17:40:28 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-04-30 17:40:28 -0500
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2012-04-30 17:40:28 -0500
+Served asset /comentarios.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-30 17:40:28 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2012-04-30 17:40:32 -0500
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hY7P0svrYAT2msN1hJUXJGSyHDMoUJRSrXItlbBNKjg=", "user_session"=>{"email"=>"emmanegr@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE (`users`.email LIKE 'emmanegr@gmail.com') LIMIT 1
+Rendered shared/_error_messages.html.erb (0.1ms)
+Rendered user_sessions/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 137ms (Views: 14.6ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 17:40:32 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 17:40:32 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 17:40:32 -0500
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 17:40:32 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 17:40:32 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-30 17:40:32 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 17:40:32 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 17:40:32 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-04-30 17:40:33 -0500
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2012-04-30 17:40:33 -0500
+Served asset /categorias.js - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2012-04-30 17:40:33 -0500
+Served asset /comentarios.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-30 17:40:33 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-04-30 17:40:33 -0500
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2012-04-30 17:40:33 -0500
+Served asset /user_sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-30 17:40:33 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/activate/B6D8liFqdAn21eqH" for 127.0.0.1 at 2012-04-30 17:41:38 -0500
+  Processing by UsersController#activate as HTML
+  Parameters: {"activation_code"=>"B6D8liFqdAn21eqH"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (perishable_token = 'B6D8liFqdAn21eqH' and updated_at > '2012-04-23 22:41:38') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `users` SET `active` = 1, `perishable_token` = 'RU8MubDxwkGIVXWmrEQb', `updated_at` = '2012-04-30 22:41:38' WHERE `users`.`id` = 1[0m
+[paperclip] Saving attachments.
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE `users` SET `login_count` = 1, `current_login_at` = '2012-04-30 22:41:38', `current_login_ip` = '127.0.0.1', `last_request_at` = '2012-04-30 22:41:38', `perishable_token` = 'QvFLolRrHmYDk3iaoCaV', `updated_at` = '2012-04-30 22:41:38' WHERE `users`.`id` = 1
+[paperclip] Saving attachments.
+  [1m[36m (32.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mUPDATE `users` SET `perishable_token` = '0X3m9ehVHMYRKRxID9Y3', `updated_at` = '2012-04-30 22:41:38' WHERE `users`.`id` = 1[0m
+[paperclip] Saving attachments.
+  [1m[35m (16.9ms)[0m  COMMIT
+DEPRECATION WARNING: from(value) is deprecated. Please pass :from as hash key to mail() instead. (called from activation_confirmation at /Users/emmanegr/Desktop/diseno-final/app/mailers/notifier.rb:18)
+DEPRECATION WARNING: from() is deprecated and will be removed in future versions. (called from activation_confirmation at /Users/emmanegr/Desktop/diseno-final/app/mailers/notifier.rb:22)
+DEPRECATION WARNING: from() is deprecated and will be removed in future versions. (called from activation_confirmation at /Users/emmanegr/Desktop/diseno-final/app/mailers/notifier.rb:23)
+Rendered notifier/activation_confirmation.erb (0.9ms)
+
+Sent mail to emmanegr@gmail.com (3828ms)
+Date: Mon, 30 Apr 2012 17:41:38 -0500
+From: Binary Logic Notifier <noreply@binarylogic.com>
+To: emma <emmanegr@gmail.com>
+Message-ID: <4f9f152288162_b9a3ff37259c9002259@JuggernautDS.local.mail>
+Subject: Activation Complete
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+fail-to: Binary Logic Notifier <noreply@binarylogic.com>
+
+Your account has been activated!
+ 
+http://localhost:3000/login
+Redirected to http://localhost:3000/user
+Completed 302 Found in 4027ms
+
+
+Started GET "/user" for 127.0.0.1 at 2012-04-30 17:41:42 -0500
+  Processing by UsersController#show as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `users` SET `last_request_at` = '2012-04-30 22:41:42', `perishable_token` = 'nTd7rvnYtXl2W1bk9Rs4', `updated_at` = '2012-04-30 22:41:42' WHERE `users`.`id` = 1[0m
+[paperclip] Saving attachments.
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mCategoria Load (0.2ms)[0m  [1mSELECT `categorias`.* FROM `categorias` INNER JOIN `categorias_users` ON `categorias`.`id` = `categorias_users`.`categoria_id` WHERE `categorias_users`.`user_id` = 1[0m
+Rendered users/show.html.erb within layouts/application (129.0ms)
+Completed 200 OK in 216ms (Views: 134.7ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 17:41:42 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 17:41:42 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 17:41:42 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 17:41:42 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 17:41:42 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 17:41:42 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 17:41:42 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-30 17:41:42 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-04-30 17:41:42 -0500
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2012-04-30 17:41:42 -0500
+Served asset /categorias.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-30 17:41:42 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2012-04-30 17:41:42 -0500
+Served asset /user_sessions.js - 200 OK (0ms)
+
+
+Started GET "/avatars/thumb/missing.png" for 127.0.0.1 at 2012-04-30 17:41:42 -0500
+
+ActionController::RoutingError (No route matches [GET] "/avatars/thumb/missing.png"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-04-30 17:41:42 -0500
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2012-04-30 17:41:42 -0500
+Served asset /comentarios.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-30 17:41:42 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/avatars/thumb/missing.png" for 127.0.0.1 at 2012-04-30 17:41:42 -0500
+
+ActionController::RoutingError (No route matches [GET] "/avatars/thumb/missing.png"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/user/edit" for 127.0.0.1 at 2012-04-30 17:41:49 -0500
+  Processing by UsersController#edit as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE `users` SET `last_request_at` = '2012-04-30 22:41:49', `perishable_token` = 'RhZBzPpXVXyAyKdFs6', `updated_at` = '2012-04-30 22:41:49' WHERE `users`.`id` = 1
+[paperclip] Saving attachments.
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+Rendered shared/_error_messages.html.erb (0.0ms)
+  [1m[35mCategoria Load (0.2ms)[0m  SELECT `categorias`.* FROM `categorias` 
+  [1m[36mCategoria Load (0.3ms)[0m  [1mSELECT `categorias`.* FROM `categorias` INNER JOIN `categorias_users` ON `categorias`.`id` = `categorias_users`.`categoria_id` WHERE `categorias_users`.`user_id` = 1[0m
+Rendered users/_form.html.erb (26.4ms)
+Rendered users/edit.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 136ms (Views: 81.8ms | ActiveRecord: 9.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 17:41:49 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 17:41:49 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 17:41:49 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 17:41:49 -0500
+Served asset /posts.css - 200 OK (1ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 17:41:49 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 17:41:49 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 17:41:49 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-30 17:41:49 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-30 17:41:49 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2012-04-30 17:41:49 -0500
+Served asset /categorias.js - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2012-04-30 17:41:49 -0500
+Served asset /comentarios.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-04-30 17:41:49 -0500
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2012-04-30 17:41:49 -0500
+Served asset /user_sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-04-30 17:41:49 -0500
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-30 17:41:49 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started PUT "/user" for 127.0.0.1 at 2012-04-30 17:42:45 -0500
+  Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2bGaO1h943ZG8IRJb/W+xF25cGul7IvoGVMKHRu5aqo=", "user"=>{"email"=>"emmanegr@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fe6e19920f8 @original_filename="110825 IDEAX no genera dummy v121.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[avatar]\"; filename=\"110825 IDEAX no genera dummy v121.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/var/folders/q5/w3_w1f3n4t3dh06zd0_ndfbc0000gn/T/RackMultipart20120430-2970-1h83pj9>>, "nombre"=>"emman", "apellido"=>"negr", "profesion"=>"estudiante", "compania"=>"no se", "web"=>"no tengo", "pais"=>"mexico", "ciudad"=>"leon", "about"=>"holo", "categoria_ids"=>[""]}, "commit"=>"Update"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE `users` SET `last_request_at` = '2012-04-30 22:42:45', `perishable_token` = 'y0uHnF9G5FLB5Mfadjx', `updated_at` = '2012-04-30 22:42:45' WHERE `users`.`id` = 1
+[paperclip] Saving attachments.
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+[32mCommand[0m :: identify -format %wx%h '/var/folders/q5/w3_w1f3n4t3dh06zd0_ndfbc0000gn/T/stream20120430-2970-slx99l.jpg[0]'
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: /var/folders/q5/w3_w1f3n4t3dh06zd0_ndfbc0000gn/T/stream20120430-2970-slx99l.jpg is not recognized by the 'identify' command.>
+[32mCommand[0m :: identify -format %wx%h '/var/folders/q5/w3_w1f3n4t3dh06zd0_ndfbc0000gn/T/stream20120430-2970-slx99l.jpg[0]'
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: /var/folders/q5/w3_w1f3n4t3dh06zd0_ndfbc0000gn/T/stream20120430-2970-slx99l.jpg is not recognized by the 'identify' command.>
+  [1m[36mCategoria Load (0.3ms)[0m  [1mSELECT `categorias`.* FROM `categorias` INNER JOIN `categorias_users` ON `categorias`.`id` = `categorias_users`.`categoria_id` WHERE `categorias_users`.`user_id` = 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Rendered shared/_error_messages.html.erb (1.3ms)
+  [1m[36mCategoria Load (0.5ms)[0m  [1mSELECT `categorias`.* FROM `categorias` [0m
+Rendered users/_form.html.erb (14.3ms)
+Rendered users/edit.html.erb within layouts/application (21.6ms)
+Completed 200 OK in 1162ms (Views: 33.1ms | ActiveRecord: 65.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 17:42:46 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 17:42:46 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 17:42:46 -0500
+Served asset /posts.css - 200 OK (1ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 17:42:46 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 17:42:46 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 17:42:46 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 17:42:46 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-30 17:42:46 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-30 17:42:46 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2012-04-30 17:42:46 -0500
+Served asset /categorias.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-30 17:42:46 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-04-30 17:42:46 -0500
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2012-04-30 17:42:46 -0500
+Served asset /user_sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-04-30 17:42:46 -0500
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2012-04-30 17:42:46 -0500
+Served asset /comentarios.js - 200 OK (0ms)
+
+
+Started PUT "/user" for 127.0.0.1 at 2012-04-30 17:43:09 -0500
+  Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2bGaO1h943ZG8IRJb/W+xF25cGul7IvoGVMKHRu5aqo=", "user"=>{"email"=>"emmanegr@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "nombre"=>"emman", "apellido"=>"negr", "profesion"=>"estudiante", "compania"=>"no se", "web"=>"no tengo", "pais"=>"mexico", "ciudad"=>"leon", "about"=>"holo", "categoria_ids"=>[""]}, "commit"=>"Update"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.8ms)[0m  UPDATE `users` SET `last_request_at` = '2012-04-30 22:43:09', `perishable_token` = 'c6vUqW3fW5G2Gc93UbH', `updated_at` = '2012-04-30 22:43:09' WHERE `users`.`id` = 1
+[paperclip] Saving attachments.
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mCategoria Load (0.3ms)[0m  [1mSELECT `categorias`.* FROM `categorias` INNER JOIN `categorias_users` ON `categorias`.`id` = `categorias_users`.`categoria_id` WHERE `categorias_users`.`user_id` = 1[0m
+  [1m[35m (0.4ms)[0m  UPDATE `users` SET `nombre` = 'emman', `apellido` = 'negr', `profesion` = 'estudiante', `compania` = 'no se', `web` = 'no tengo', `pais` = 'mexico', `ciudad` = 'leon', `about` = 'holo', `perishable_token` = 'y34j0NhdceT03brO7qwc', `updated_at` = '2012-04-30 22:43:09' WHERE `users`.`id` = 1
+[paperclip] Saving attachments.
+  [1m[36m (16.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/user
+Completed 302 Found in 138ms
+
+
+Started GET "/user" for 127.0.0.1 at 2012-04-30 17:43:09 -0500
+  Processing by UsersController#show as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  UPDATE `users` SET `last_request_at` = '2012-04-30 22:43:10', `perishable_token` = '02a4j3mrkAehqNAqHRGK', `updated_at` = '2012-04-30 22:43:10' WHERE `users`.`id` = 1
+[paperclip] Saving attachments.
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mCategoria Load (2.0ms)[0m  SELECT `categorias`.* FROM `categorias` INNER JOIN `categorias_users` ON `categorias`.`id` = `categorias_users`.`categoria_id` WHERE `categorias_users`.`user_id` = 1
+Rendered users/show.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 129ms (Views: 26.4ms | ActiveRecord: 9.3ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 17:43:10 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 17:43:10 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 17:43:10 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 17:43:10 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 17:43:10 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 17:43:10 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 17:43:10 -0500
+Served asset /posts.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-30 17:43:10 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-30 17:43:10 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2012-04-30 17:43:10 -0500
+Served asset /categorias.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-30 17:43:10 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2012-04-30 17:43:10 -0500
+Served asset /user_sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-04-30 17:43:10 -0500
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/avatars/thumb/missing.png" for 127.0.0.1 at 2012-04-30 17:43:10 -0500
+
+ActionController::RoutingError (No route matches [GET] "/avatars/thumb/missing.png"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2012-04-30 17:43:10 -0500
+Served asset /comentarios.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-04-30 17:43:10 -0500
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/avatars/thumb/missing.png" for 127.0.0.1 at 2012-04-30 17:43:10 -0500
+
+ActionController::RoutingError (No route matches [GET] "/avatars/thumb/missing.png"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
