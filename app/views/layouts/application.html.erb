@@ -2,13 +2,21 @@
 <html>
 <head>
   <title>Diseno</title>
-  <%= stylesheet_link_tag    "application" %>
-  <%= javascript_include_tag "application" %>
+  <%= stylesheet_link_tag    :all %>
+  <%= javascript_include_tag :all, :recursive => true  %>
   <%= csrf_meta_tags %>
+<link href='http://fonts.googleapis.com/css?family=Share:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
+<div id="contenedorCabeza">
+
+
 
 <%= yield %>
+
+
+</div>
 
 </body>
 </html>

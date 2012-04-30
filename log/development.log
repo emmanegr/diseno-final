@@ -31131,3 +31131,287 @@ ActionView::Template::Error (undefined method `titulo' for nil:NilClass):
 Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
 Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
 Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 18:06:50 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.4ms)
+Compiled application.css  (5ms)  (pid 2970)
+Compiled bootstrap-responsive.css  (0ms)  (pid 2970)
+Compiled bootstrap-responsive.min.css  (0ms)  (pid 2970)
+Compiled bootstrap.css  (0ms)  (pid 2970)
+Compiled bootstrap.min.css  (2ms)  (pid 2970)
+Compiled categorias.css  (0ms)  (pid 2970)
+Compiled comentarios.css  (0ms)  (pid 2970)
+Compiled inicio.css  (20ms)  (pid 2970)
+Compiled posts.css  (0ms)  (pid 2970)
+Compiled scaffolds.css  (0ms)  (pid 2970)
+Compiled style.css  (0ms)  (pid 2970)
+Compiled user_sessions.css  (0ms)  (pid 2970)
+Compiled users.css  (0ms)  (pid 2970)
+Compiled application.js  (6ms)  (pid 2970)
+Compiled inicio.js  (561ms)  (pid 2970)
+Completed 200 OK in 862ms (Views: 861.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 18:06:51 -0500
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 18:06:51 -0500
+Served asset /comentarios.css - 200 OK (5ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 18:06:51 -0500
+Served asset /bootstrap-responsive.css - 200 OK (3ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 18:06:51 -0500
+Served asset /posts.css - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 18:06:51 -0500
+Served asset /bootstrap.css - 200 OK (61ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 18:06:51 -0500
+Served asset /categorias.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 18:06:51 -0500
+Served asset /bootstrap.min.css - 200 OK (2ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 18:06:51 -0500
+Served asset /inicio.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 18:06:51 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (9ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 18:06:51 -0500
+Served asset /style.css - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 18:06:51 -0500
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 18:06:51 -0500
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2012-04-30 18:06:51 -0500
+Served asset /categorias.js - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2012-04-30 18:06:51 -0500
+Served asset /comentarios.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-30 18:06:51 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-30 18:06:51 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 18:06:52 -0500
+Served asset /user_sessions.css - 200 OK (2ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2012-04-30 18:06:52 -0500
+Served asset /user_sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-04-30 18:06:52 -0500
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-04-30 18:06:52 -0500
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.js?body=1" for 127.0.0.1 at 2012-04-30 18:06:52 -0500
+Served asset /inicio.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-30 18:06:52 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.1ms)
+Compiled application.js  (11ms)  (pid 2970)
+Compiled bootstrap/alert.js  (0ms)  (pid 2970)
+Compiled bootstrap/bootstrap.js  (0ms)  (pid 2970)
+Compiled bootstrap/bootstrap.min.js  (0ms)  (pid 2970)
+Compiled bootstrap/button.js  (0ms)  (pid 2970)
+Compiled bootstrap/carousel.js  (0ms)  (pid 2970)
+Compiled bootstrap/collapse.js  (0ms)  (pid 2970)
+Compiled bootstrap/dropdown.js  (0ms)  (pid 2970)
+Compiled bootstrap/modal.js  (0ms)  (pid 2970)
+Compiled bootstrap/popover.js  (0ms)  (pid 2970)
+Compiled bootstrap/scrollspy.js  (0ms)  (pid 2970)
+Compiled bootstrap/tab.js  (0ms)  (pid 2970)
+Compiled bootstrap/tooltip.js  (0ms)  (pid 2970)
+Compiled bootstrap/transition.js  (0ms)  (pid 2970)
+Compiled bootstrap/typeahead.js  (1ms)  (pid 2970)
+Compiled jquery-1.7.2.min.js  (1ms)  (pid 2970)
+Compiled modernizr-2.5.3-respond-1.1.0.min.js  (0ms)  (pid 2970)
+Completed 200 OK in 424ms (Views: 423.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /bootstrap/bootstrap.min.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /bootstrap/button.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/bootstrap.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /bootstrap/bootstrap.js - 200 OK (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /bootstrap/alert.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /bootstrap/scrollspy.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /bootstrap/tab.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /bootstrap/collapse.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /bootstrap/carousel.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /bootstrap/popover.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /bootstrap/dropdown.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /bootstrap/tooltip.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /bootstrap/modal.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /bootstrap/transition.js - 200 OK (72ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /comentarios.js - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /categorias.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /bootstrap/typeahead.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery-1.7.2.min.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /jquery-1.7.2.min.js - 200 OK (2ms)
+
+
+Started GET "/assets/inicio.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /inicio.js - 200 OK (0ms)
+
+
+Started GET "/assets/modernizr-2.5.3-respond-1.1.0.min.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /modernizr-2.5.3-respond-1.1.0.min.js - 200 OK (2ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /user_sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-30 18:14:15 -0500
+Served asset /application.js - 200 OK (1ms)
