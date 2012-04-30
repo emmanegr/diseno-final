@@ -30866,3 +30866,268 @@ ActionController::RoutingError (No route matches [GET] "/avatars/thumb/missing.p
   
 
 Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2012-04-30 17:44:22 -0500
+  Processing by ComentariosController#index as HTML
+  [1m[36mComentario Load (0.4ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` [0m
+Rendered comentarios/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 17:44:22 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 17:44:22 -0500
+Served asset /posts.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 17:44:22 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 17:44:22 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 17:44:22 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:22 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:22 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 17:44:22 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 17:44:22 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:22 -0500
+Served asset /comentarios.js - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:22 -0500
+Served asset /categorias.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:22 -0500
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:22 -0500
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:22 -0500
+Served asset /user_sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:22 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/comentarios/new" for 127.0.0.1 at 2012-04-30 17:44:24 -0500
+  Processing by ComentariosController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` 
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT `posts`.* FROM `posts` [0m
+Rendered comentarios/_form.html.erb (165.3ms)
+Rendered comentarios/new.html.erb within layouts/application (168.2ms)
+Completed 200 OK in 183ms (Views: 171.8ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 17:44:24 -0500
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 17:44:24 -0500
+Served asset /categorias.css - 200 OK (2ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 17:44:24 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 17:44:24 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 17:44:24 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 17:44:24 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 17:44:24 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:24 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:24 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:24 -0500
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:24 -0500
+Served asset /comentarios.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:24 -0500
+Served asset /posts.js - 200 OK (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:24 -0500
+Served asset /user_sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:24 -0500
+Served asset /categorias.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:24 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started POST "/comentarios" for 127.0.0.1 at 2012-04-30 17:44:35 -0500
+  Processing by ComentariosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2bGaO1h943ZG8IRJb/W+xF25cGul7IvoGVMKHRu5aqo=", "comentario"=>{"contenido"=>"mi comentario 1", "user_id"=>"1", "post_id"=>""}, "commit"=>"Create Comentario"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `comentarios` (`contenido`, `created_at`, `post_id`, `updated_at`, `user_id`) VALUES ('mi comentario 1', '2012-04-30 22:44:35', NULL, '2012-04-30 22:44:35', 1)[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/comentarios/1
+Completed 302 Found in 14ms
+
+
+Started GET "/comentarios/1" for 127.0.0.1 at 2012-04-30 17:44:35 -0500
+  Processing by ComentariosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mComentario Load (0.3ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+Rendered comentarios/show.html.erb within layouts/application (121.7ms)
+Completed 200 OK in 138ms (Views: 128.3ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 17:44:36 -0500
+Served asset /posts.css - 200 OK (2ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 17:44:36 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 17:44:36 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 17:44:36 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 17:44:36 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 17:44:36 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 17:44:36 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:36 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:36 -0500
+Served asset /categorias.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:36 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:36 -0500
+Served asset /comentarios.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:36 -0500
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:36 -0500
+Served asset /user_sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:36 -0500
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-30 17:44:36 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2012-04-30 17:44:43 -0500
+  Processing by ComentariosController#index as HTML
+  [1m[36mComentario Load (0.2ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` [0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+Rendered comentarios/index.html.erb within layouts/application (128.4ms)
+Completed 500 Internal Server Error in 137ms
+
+ActionView::Template::Error (undefined method `titulo' for nil:NilClass):
+    14:   <tr>
+    15:     <td><%= comentario.contenido %></td>
+    16:     <td><%= comentario.user.name %></td>
+    17:     <td><%= comentario.post.titulo %></td>
+    18:     <td><%= image_tag comentario.user.avatar.url :thumb %></td>
+    19:     <td><%= link_to 'Show', comentario %></td>
+    20:     <td><%= link_to 'Edit', edit_comentario_path(comentario) %></td>
+  app/views/comentarios/index.html.erb:17:in `block in _app_views_comentarios_index_html_erb__1757119432559447257_70314804639260'
+  app/views/comentarios/index.html.erb:13:in `each'
+  app/views/comentarios/index.html.erb:13:in `_app_views_comentarios_index_html_erb__1757119432559447257_70314804639260'
+  app/controllers/comentarios_controller.rb:7:in `index'
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.1ms)
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2012-04-30 17:44:49 -0500
+  Processing by ComentariosController#index as HTML
+  [1m[36mComentario Load (0.3ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` [0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+Rendered comentarios/index.html.erb within layouts/application (124.5ms)
+Completed 500 Internal Server Error in 134ms
+
+ActionView::Template::Error (undefined method `titulo' for nil:NilClass):
+    14:   <tr>
+    15:     <td><%= comentario.contenido %></td>
+    16:     <td><%= comentario.user.name %></td>
+    17:     <td><%= comentario.post.titulo %></td>
+    18:     <td><%= image_tag comentario.user.avatar.url :thumb %></td>
+    19:     <td><%= link_to 'Show', comentario %></td>
+    20:     <td><%= link_to 'Edit', edit_comentario_path(comentario) %></td>
+  app/views/comentarios/index.html.erb:17:in `block in _app_views_comentarios_index_html_erb__1757119432559447257_70314804639260'
+  app/views/comentarios/index.html.erb:13:in `each'
+  app/views/comentarios/index.html.erb:13:in `_app_views_comentarios_index_html_erb__1757119432559447257_70314804639260'
+  app/controllers/comentarios_controller.rb:7:in `index'
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.9ms)
