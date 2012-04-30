@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  titulo: MyString
+  subtitulo: MyString
+  descripcion: MyText
+  user: 
+  gusta: 1
+  nogusta: 1
+  comentarios: MyText
+  vistas: 1
+  categoria: 
+  current_session: MyString
+
+two:
+  titulo: MyString
+  subtitulo: MyString
+  descripcion: MyText
+  user: 
+  gusta: 1
+  nogusta: 1
+  comentarios: MyText
+  vistas: 1
+  categoria: 
+  current_session: MyString

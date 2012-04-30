@@ -1,0 +1,54 @@
+<p>
+<%= image_tag @user.avatar.url :thumb %>
+
+</p>
+<p>
+  <b>Nombre de Usuario:</b>
+  <%=h @user.name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%=h @user.email %>
+</p>
+<p>
+  <b>Nombre:</b>
+  <%=h @user.nombre %>
+</p>
+<p>
+  <b>Apellido:</b>
+  <%=h @user.apellido %>
+</p>
+<p>
+  <b>Profesion:</b>
+  <%=h @user.profesion %>
+</p>
+<p>
+  <b>Compania:</b>
+  <%=h @user.compania %>
+</p>
+<p>
+  <b>Sitio Web:</b>
+  <%=h @user.web %>
+</p>
+<p>
+  <b>Pais:</b>
+  <%=h @user.pais %>
+</p>
+<p>
+  <b>Ciudad:</b>
+  <%=h @user.ciudad %>
+</p>
+<p>
+  <b>Sobre mi:</b>
+  <%=h @user.about %>
+</p>
+
+
+<p>
+ <b>Intereses:</b>
+      <%= @user.categorias.map {|x| x.to_label}.join ', ' %>
+    </p>
+
+
+<%= link_to 'Edit', edit_account_path %>

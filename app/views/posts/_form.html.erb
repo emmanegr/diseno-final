@@ -1,0 +1,16 @@
+<%= simple_form_for(@post) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :titulo %>
+    <%= f.input :subtitulo %>
+    <%= f.input :descripcion %>
+    <%= f.text_field :user_id, :value => current_user.id %>
+    <%= f.association :categorias, :as => :check_boxes %>
+    
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

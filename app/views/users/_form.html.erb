@@ -1,0 +1,83 @@
+<%= render "shared/error_messages", :target => @user %>
+
+<% if current_user %>
+<p>
+  <%= form.label :email %><br />
+  <%= form.text_field :email %>
+</p>
+<p>
+  <%= form.label :password, form.object.new_record? ? nil : "Change password" %><br />
+  <%= form.password_field :password %>
+</p>
+<p>
+  <%= form.label :password_confirmation %><br />
+  <%= form.password_field :password_confirmation %>
+</p>
+
+<p>
+  <%= form.label :avatar %><br />
+  <%= form.file_field :avatar %>
+</p>
+
+<p>
+  <%= form.label :nombre %><br />
+  <%= form.text_field :nombre %>
+</p>
+
+<p>
+  <%= form.label :apellido %><br />
+  <%= form.text_field :apellido %>
+</p>
+
+<p>
+  <%= form.label :profesion %><br />
+  <%= form.text_field :profesion %>
+</p>
+
+<p>
+  <%= form.label :compania %><br />
+  <%= form.text_field :compania %>
+</p>
+
+<p>
+  <%= form.label :web %><br />
+  <%= form.text_field :web %>
+</p>
+
+<p>
+  <%= form.label :pais %><br />
+  <%= form.text_field :pais %>
+</p>
+
+<p>
+  <%= form.label :ciudad %><br />
+  <%= form.text_field :ciudad %>
+</p>
+<p>
+  <%= form.label :about %><br />
+  <%= form.text_area :about %>
+</p>
+
+    <%= form.association :categorias, :as => :check_boxes %>
+
+<% else %>
+<p>
+  <%= form.label :usuario %><br />
+  <%= form.text_field :name %>
+</p>
+<p>
+  <%= form.label :email %><br />
+  <%= form.text_field :email %>
+</p>
+<p>
+  <%= form.label :password, form.object.new_record? ? nil : "Change password" %><br />
+  <%= form.password_field :password %>
+</p>
+<p>
+  <%= form.label :password_confirmation %><br />
+  <%= form.password_field :password_confirmation %>
+</p>
+
+
+<% end %>
+
