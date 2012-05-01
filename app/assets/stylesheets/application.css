@@ -5,9 +5,9 @@
  *= require_self
  *= require_tree . 
 */
-.centrado{margin:0 auto; padding:0px;}
-#Contenedor1{background-color:blue; width:960px; margin:0 auto; padding:0px; border:1px solid red;}
-#Cabeza { width:100px; background-color:yellow; border:1px solid red;}
+.fondo{background-color:gray;}
+.Contenedor{background-color:blue; width:960px; margin:0 auto; padding:0px; }
+.Cabeza { background-color:yellow; border:1px solid red;}
 h1 { font-family: ‘Metrophobic’, Arial, serif; font-weight: 400; font-size:16px; }
 .clear{clear:both;}
-#Contenedor2{width:1000px; margin:0 auto; padding:0px; background-color:blue;}
+#Contenedor2{width:960px; margin:0 auto; padding:0px; background-color:blue;}
