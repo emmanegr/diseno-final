@@ -1,4 +1,4 @@
-<%= simple_form_for(@post) do |f| %>
+<%= simple_form_for(@post) do |f|  %>
   <%= f.error_notification %>
 
   <div class="form-inputs">
@@ -7,7 +7,11 @@
     <%= f.input :descripcion %>
     <%= f.text_field :user_id, :value => current_user.id %>
     <%= f.association :categorias, :as => :check_boxes %>
-    
+    <%= f.input :fotopost1 %>
+    <%= f.input :fotopost2 %>
+    <%= f.input :fotopost3 %>
+    <%= f.input :fotopost4 %>
+    <%= f.input :fotopost5 %>
   </div>
 
   <div class="form-actions">

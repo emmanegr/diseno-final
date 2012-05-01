@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120426132131) do
+ActiveRecord::Schema.define(:version => 20120429230444) do
 
   create_table "categorias", :force => true do |t|
     t.string   "nombre"
@@ -53,6 +53,26 @@ ActiveRecord::Schema.define(:version => 20120426132131) do
     t.string   "current_session"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "fotopost1_file_name"
+    t.string   "fotopost1_content_type"
+    t.integer  "fotopost1_file_size"
+    t.datetime "fotopost1_updated_at"
+    t.string   "fotopost2_file_name"
+    t.string   "fotopost2_content_type"
+    t.integer  "fotopost2_file_size"
+    t.datetime "fotopost2_updated_at"
+    t.string   "fotopost3_file_name"
+    t.string   "fotopost3_content_type"
+    t.integer  "fotopost3_file_size"
+    t.datetime "fotopost3_updated_at"
+    t.string   "fotopost4_file_name"
+    t.string   "fotopost4_content_type"
+    t.integer  "fotopost4_file_size"
+    t.datetime "fotopost4_updated_at"
+    t.string   "fotopost5_file_name"
+    t.string   "fotopost5_content_type"
+    t.integer  "fotopost5_file_size"
+    t.datetime "fotopost5_updated_at"
   end
 
   add_index "posts", ["categoria_id"], :name => "index_posts_on_categoria_id"

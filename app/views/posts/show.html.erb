@@ -1,5 +1,8 @@
 <p id="notice"><%= notice %></p>
+<p>
+<%= image_tag @post.fotopost1.url :thumb %>
 
+</p>
 <p>
   <b>Titulo:</b>
   <%= @post.titulo %>
@@ -40,20 +43,40 @@
   <b>Categoria:</b>
   <%= @post.categorias.map {|x| x.to_label}.join ', ' %>
 </p>
+<p>
+<%= image_tag @post.fotopost1.url :thumb %>
+
+</p>
+<p>
+<%= image_tag @post.fotopost2.url :thumb %>
+
+</p>
+<p>
+<%= image_tag @post.fotopost3.url :thumb %>
+
+</p>
+<p>
+<%= image_tag @post.fotopost4.url :thumb %>
+
+</p>
+<p>
+<%= image_tag @post.fotopost5.url :thumb %>
+
+</p>
 
 
 
-
-<%= simple_form_for(@comentario) do |f| %>
+<%= form_for (@comentario), :remote => true do |f| %>
 
   <div class="form-inputs">
-    <%= f.input :contenido %>
+    <%= f.label :contenido %>
+    <%= f.text_area :contenido %>
     <%= f.text_field :user_id, :value => current_user.id %>
     <%= f.text_field :post_id, :value => @post.id %>
   </div>
 
   <div class="form-actions">
-    <%= f.button :submit %>
+    <%= submit_tag 'Comentar'%>
   </div>
 <% end %>
 
@@ -67,12 +90,13 @@
     <th></th>
     <th></th>
   </tr>
-<% @comentarios = Comentario.find(:all, :conditions =>{:post_id => @post.id}) %>
+<% @comentarios = Comentario.find(:all, :order => "id DESC", :conditions =>{:post_id => @post.id}) %>
 <% @comentarios.each do |comentario| %>
   <tr>
     <td><%= comentario.contenido %></td>
     <td><%= comentario.user.name %></td>
     <td><%= image_tag comentario.user.avatar.url :thumb %></td>
+    <td><%= comentario.updated_at %></td>
   </tr>
 <% end %>
 </table>
