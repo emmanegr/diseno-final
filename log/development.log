@@ -44511,3 +44511,1821 @@ Served asset /users.css - 200 OK (0ms)
 
 Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 22:56:48 -0500
 Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 22:59:56 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.1ms)
+Compiled application.css  (7ms)  (pid 15562)
+Completed 200 OK in 96ms (Views: 95.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 22:59:56 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 22:59:56 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 22:59:56 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 22:59:56 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 22:59:56 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 22:59:56 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 22:59:56 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 22:59:56 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 22:59:56 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 22:59:56 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 22:59:56 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 22:59:56 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 22:59:56 -0500
+Served asset /all.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 22:59:56 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:00:29 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:00:29 -0500
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:00:29 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:00:29 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:00:29 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:00:29 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:00:29 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:00:29 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:00:29 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:00:29 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:00:29 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:00:29 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:00:29 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:00:29 -0500
+Served asset /all.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:00:29 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:01:12 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:01:12 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:01:12 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:01:12 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:01:12 -0500
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:01:12 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:01:12 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:01:13 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:01:13 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:01:13 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:01:13 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:01:13 -0500
+Served asset /all.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:01:13 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:01:13 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:01:13 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:03:48 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 24ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:03:48 -0500
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:03:48 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:03:48 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:03:48 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:03:48 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:03:48 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:03:48 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:03:48 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:03:48 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:03:48 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:03:48 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:03:48 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:03:48 -0500
+Served asset /all.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:03:48 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:04:08 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 24ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:04:08 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:04:08 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:04:08 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:04:08 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:04:08 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:04:08 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:04:08 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:04:08 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:04:08 -0500
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:04:08 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:04:08 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:04:08 -0500
+Served asset /all.js - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:04:08 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:04:08 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:05:20 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Compiled application.css  (57ms)  (pid 15562)
+Completed 200 OK in 96ms (Views: 96.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:05:21 -0500
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:05:21 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:05:21 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:05:21 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:05:21 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:05:21 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:05:21 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:05:21 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:05:21 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:05:21 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:05:21 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:05:21 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:05:21 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:05:21 -0500
+Served asset /all.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:06:16 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:06:16 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:06:16 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:06:16 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:06:16 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:06:16 -0500
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:06:16 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:06:16 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:06:16 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:06:16 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:06:16 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:06:16 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:06:16 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:06:16 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:06:16 -0500
+Served asset /all.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:14:46 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:14:46 -0500
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:14:46 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:14:46 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:14:46 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:14:46 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:14:46 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:14:46 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:14:46 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:14:46 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:14:46 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:14:46 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:14:46 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:14:46 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:14:46 -0500
+Served asset /all.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:15:20 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 71ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:20 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:20 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:20 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:20 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:20 -0500
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:20 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:20 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:20 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:20 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:20 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:20 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:15:20 -0500
+Served asset /all.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:20 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:20 -0500
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:15:22 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 28ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:22 -0500
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:22 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:22 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:22 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:22 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:22 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:22 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:22 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:22 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:22 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:22 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:15:22 -0500
+Served asset /all.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:22 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:15:22 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:16:02 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:02 -0500
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:02 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:02 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:02 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:02 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:02 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:02 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:02 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:02 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:02 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:02 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:02 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:16:02 -0500
+Served asset /all.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:02 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:16:52 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:52 -0500
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:52 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:52 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:52 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:52 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:52 -0500
+Served asset /categorias.css - 200 OK (1ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:52 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:52 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:52 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:52 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:52 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:52 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:16:52 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:16:52 -0500
+Served asset /all.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:18:06 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:18:06 -0500
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:18:06 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:18:06 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:18:06 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:18:06 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:18:06 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:18:06 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:18:06 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:18:06 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:18:06 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:18:06 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:18:06 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:18:06 -0500
+Served asset /all.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:18:06 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:19:19 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Compiled application.css  (7ms)  (pid 15562)
+Completed 200 OK in 91ms (Views: 91.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:19:20 -0500
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:19:20 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:19:20 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:19:20 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:19:20 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:19:20 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:19:20 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:19:20 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:19:20 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:19:20 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:19:20 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:19:20 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:19:20 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:19:20 -0500
+Served asset /all.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:20:05 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Compiled application.css  (6ms)  (pid 15562)
+Completed 200 OK in 100ms (Views: 99.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:20:05 -0500
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:20:05 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:20:05 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:20:06 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:20:06 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:20:06 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:20:06 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:20:06 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:20:06 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:20:06 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:20:06 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:20:06 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:20:06 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:20:06 -0500
+Served asset /all.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:21:22 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:22 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:22 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:22 -0500
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:22 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:22 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:22 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:22 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:22 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:22 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:22 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:22 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:22 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:22 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:21:22 -0500
+Served asset /all.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:21:23 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:23 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:23 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:23 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:23 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (3ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:23 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:23 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:23 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:23 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:23 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:23 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:23 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:23 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:21:23 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:21:23 -0500
+Served asset /all.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:22:02 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:02 -0500
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:02 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:02 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:02 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:02 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:02 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:02 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:02 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:02 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:02 -0500
+Served asset /scaffolds.css - 200 OK (57ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:02 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:02 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:03 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:22:03 -0500
+Served asset /all.js - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:22:58 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:58 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:58 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:58 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:59 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:59 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:59 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:59 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:59 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:59 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:59 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:59 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:59 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:22:59 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:22:59 -0500
+Served asset /all.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:23:21 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Compiled application.css  (6ms)  (pid 15562)
+Completed 200 OK in 95ms (Views: 94.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:23:21 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:23:21 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:23:21 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:23:21 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:23:21 -0500
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:23:21 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:23:21 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:23:21 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:23:21 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:23:21 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:23:21 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:23:21 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:23:21 -0500
+Served asset /all.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:23:21 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:24:04 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Compiled application.css  (6ms)  (pid 15562)
+Completed 200 OK in 50ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:04 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:04 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:04 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:04 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:04 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:05 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:05 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:05 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:05 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:05 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:05 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:24:05 -0500
+Served asset /all.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:05 -0500
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:05 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:24:43 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:43 -0500
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:43 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:43 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:43 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:43 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:43 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:43 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:43 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:43 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:43 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:43 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:43 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:43 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:24:43 -0500
+Served asset /all.js - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:24:45 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 77ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:45 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:45 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:45 -0500
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:45 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:45 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:45 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:45 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:45 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:45 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:45 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:45 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:45 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:24:45 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:24:45 -0500
+Served asset /all.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:25:36 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Compiled application.css  (7ms)  (pid 15562)
+Completed 200 OK in 53ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:36 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:36 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:36 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:36 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:36 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:36 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:36 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:36 -0500
+Served asset /posts.css - 200 OK (1ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:36 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:25:36 -0500
+Served asset /all.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:36 -0500
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:36 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:36 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:36 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:25:53 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Compiled application.css  (8ms)  (pid 15562)
+Completed 200 OK in 48ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:53 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:53 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:53 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:53 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:53 -0500
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:53 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:53 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:53 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:53 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:53 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:53 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:53 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:25:53 -0500
+Served asset /all.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:53 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:25:55 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:55 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:55 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:55 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:55 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:55 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:55 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:55 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:55 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:55 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:55 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:55 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:55 -0500
+Served asset /user_sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:25:55 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:25:55 -0500
+Served asset /all.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-30 23:26:15 -0500
+  Processing by InicioController#index as HTML
+Rendered inicio/index.html.erb within layouts/application (0.0ms)
+Compiled application.css  (7ms)  (pid 15562)
+Completed 200 OK in 45ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-30 23:26:15 -0500
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:26:15 -0500
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-04-30 23:26:15 -0500
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-04-30 23:26:15 -0500
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2012-04-30 23:26:15 -0500
+Served asset /comentarios.css - 200 OK (0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2012-04-30 23:26:15 -0500
+Served asset /categorias.css - 200 OK (0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2012-04-30 23:26:15 -0500
+Served asset /inicio.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-04-30 23:26:15 -0500
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-04-30 23:26:15 -0500
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-30 23:26:15 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-04-30 23:26:15 -0500
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-30 23:26:15 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2012-04-30 23:26:15 -0500
+Served asset /all.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  
+
+Rendered /Users/emmanegr/.rvm/gems/ruby-1.9.3-p125@global/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2012-04-30 23:26:15 -0500
+Served asset /user_sessions.css - 200 OK (0ms)

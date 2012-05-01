@@ -1,14 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1335843571.397915:@value{	I"length:EFiúI"digest;
-F"%13e0ea02257ae7dbe699eb27ebbb5447I"source;
-FI"ú/*
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1335846375.2636778:@value{	I"length:EFi‚I"digest;
+F"%f95e546591e25896ed01716218a718abI"source;
+FI"‚/*
  * This is a manifest file that'll automatically include all the stylesheets available in this directory
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
 */
-#ContendorCabeza{width:1000px; margin:0 auto; padding:0px; background-color:blue;}
+
+.centrado{margin:0 auto; padding:0px;}
+#Contenedor1{background-color:blue; width:960px; margin:0 auto; padding:0px; border:1px solid red;}
 #Cabeza { width:100px; background-color:yellow; border:1px solid red;}
 h1 { font-family: â€˜Metrophobicâ€™, Arial, serif; font-weight: 400; font-size:16px; }
 .clear{clear:both;}
+#Contenedor2{width:1000px; margin:0 auto; padding:0px; background-color:blue;}
 /*!
  * Bootstrap Responsive v2.0.2
  *
@@ -5491,4 +5494,4 @@ div.field, div.actions {
 
 ;
 TI"_version;
-F"%c5feccd9f4ded2ad7867e7d0b844ec9a
+F"%f2524e7c406504912ee8b6119647f6a7
