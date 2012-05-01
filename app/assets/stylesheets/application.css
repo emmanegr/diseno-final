@@ -5,6 +5,7 @@
  *= require_self
  *= require_tree . 
 */
-
-
-h1 { font-family: ‘Metrophobic’, Arial, serif; font-weight: 400; }
+#ContendorCabeza{width:1000px; margin:0 auto; padding:0px; background-color:blue;}
+#Cabeza { width:100px; background-color:yellow; border:1px solid red;}
+h1 { font-family: ‘Metrophobic’, Arial, serif; font-weight: 400; font-size:16px; }
+.clear{clear:both;}
