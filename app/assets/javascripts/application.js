@@ -7,3 +7,10 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+$().ready(function() {
+	$('.kwicks').kwicks({
+		max : 220,
+		spacing : 5
+	});
+});
