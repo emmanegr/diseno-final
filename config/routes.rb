@@ -1,6 +1,8 @@
 Diseno::Application.routes.draw do
 
 
+  get "inicio/index"
+
   resources :comentarios
 
   resources :posts
@@ -22,7 +24,7 @@ match 'signup' => 'users#new', :as => :signup
 match 'activate(/:activation_code)' => 'users#activate', :as => :activate_account
 match 'send_activation(/:user_id)' => 'users#send_activation', :as => :send_activation
 
-root :to => 'welcome#index'
+root :to => 'inicio#index'
 
 
 match 'forgot_password' => 'user_sessions#forgot_password', :as => :forgot_password, :via => :get
