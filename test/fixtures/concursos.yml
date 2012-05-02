@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  titulo: MyString
+  descripcion: MyText
+  categoria: 
+  web: MyString
+  entrega: MyString
+  premio: MyString
+  jurado: MyString
+
+two:
+  titulo: MyString
+  descripcion: MyText
+  categoria: 
+  web: MyString
+  entrega: MyString
+  premio: MyString
+  jurado: MyString

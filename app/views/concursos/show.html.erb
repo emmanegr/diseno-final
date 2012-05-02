@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Titulo:</b>
+  <%= @concurso.titulo %>
+</p>
+
+<p>
+  <b>Descripcion:</b>
+  <%= @concurso.descripcion %>
+</p>
+
+<p>
+  <b>Categoria:</b>
+  <%= @concurso.categoria %>
+</p>
+
+<p>
+  <b>Sitio Web:</b>
+  <%= @concurso.web %>
+</p>
+
+<p>
+  <b>Fecha Limite:</b>
+  <%= @concurso.entrega %>
+</p>
+
+<p>
+  <b>Premio:</b>
+  <%= @concurso.premio %>
+</p>
+
+<p>
+  <b>Jurado:</b>
+  <%= @concurso.jurado %>
+</p>
+
+
+<%= link_to 'Edit', edit_concurso_path(@concurso) %> |
+<%= link_to 'Back', concursos_path %>

@@ -1,0 +1,18 @@
+<%= simple_form_for(@concurso) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+  <%= f.input :fotoconcurso, :label => 'Logotipo o Imagen' %>
+    <%= f.input :titulo, :label => 'Nombre del Concurso' %>
+    <%= f.input :web, :label => 'Sitio Web' %>
+    <%= f.input :entrega, :label => 'Fecha Limite' %>
+    <%= f.association :categoria, :as => :check_boxes, :label => 'Categoria' %>
+    <%= f.input :descripcion, :label => 'Descripcion' %>
+    <%= f.input :jurado, :label => 'Jurado' %>
+    <%= f.input :premio, :label => 'Premio' %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
