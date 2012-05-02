@@ -45,25 +45,51 @@
 	</div>
 		<div class="container">
 		<div class="row">
-			<div class="span8">
+			<div class="span12">
 				<div class="row container">
-					<ul class="kwicks horizontal" >
-						<li class="span2" id="kwick_1"> <h1><%= link_to "Inicio", root_path %> <div class="iconos"><%= image_tag ("home.png") %></div></h1> 
-							
-						</li>
-						<li class="span2" id="kwick_2"> <h1><%= link_to "Galería" , categorias_path %> <div class="iconos"><%= image_tag ("galeria.png") %></div></h1></li>
-						<li class="span2" id="kwick_3"> <h1><%= link_to "Compartir", posts_path %> <div class="iconos"><%= image_tag ("compartir.png") %></div></h1></li>
+					<div class="span2">
+						<div class="Cabeza">
+							<h1><%= link_to "Inicio" , root_path %> <div class="iconos Cabeza"><%= image_tag ("home.png") %></div></h1>
+						</div>
+					</div>
+					<div class="span2">
+						<div class="Cabeza">
+							<h1><%= link_to "Galería" , categorias_path %> <div class="iconos"><%= image_tag ("galeria.png") %></div></h1>
+						</div>
 						
-						<li class="span2" id="kwick_2"> <h1><%= link_to "Concursos" , categorias_path %><div class="iconos"><%= image_tag ("concurso.png") %></div></h1></li>
-						<li class="span2" id="kwick_2"> <h1><%= link_to "Extranjero" , categorias_path %><div class="iconos"><%= image_tag ("extrangero.png") %></div></h1></li>
-						<% if current_user %>
-						<li class="span2" id="kwick_4"> <h1><%= link_to "Mi cuenta", :account %><div class="iconos"><%= image_tag ("usuario.png") %></div></h1></li>
-						<% end %>
-					</ul>
+					</div>
+					<div class="span2">
+						<div class="Cabeza">
+							<h1><%= link_to "Compartir", posts_path %> <div class="iconos"><%= image_tag ("compartir.png") %></div></h1>
+						</div>
+						
+					</div>
+					<div class="span2">
+						<div class="Cabeza">
+							<h1><%= link_to "Concursos" , categorias_path %><div class="iconos"><%= image_tag ("concurso.png") %></div></h1>
+						</div>
+						
+					</div>
+					
+					<div class="span2">
+						<div class="Cabeza">
+							<h1><%= link_to "Extrangero" , categorias_path %><div class="iconos"><%= image_tag ("extrangero.png") %></div></h1>
+						</div>
+						
+					</div>
+					
+					<% if current_user %>
+					<div class="span2">
+						<div class="Cabeza">
+							<h1><%= link_to "Mi Cuenta" , categorias_path %><div class="iconos"><%= image_tag ("usuario.png") %></div></h1>
+						</div>
+						
+					</div>
+					<% end %>
 				</div>
 			</div>
 		</div>
-		</div>
+	</div>
 </div>
 
 <div id="row-fluid">
@@ -77,38 +103,48 @@
 		<div class="row container">
 				<div class="span12">
 					<div class="row">
+						<a href="https://www.facebook.com">
 						<div class="span2">
 							<div class="cajaSocial">
 								<div id="columnaFace">
-									<%= link_to image_tag("facebook.png"), "https://www.facebook.com" %>
+									face
 								</div>
 							</div>
 							<div class="cajaSocialTexto">Follow Us</div>
 						</div>
+						</a>
+						<a href="https://www.twitter.com">
 						<div class="span2">
 							<div class="cajaSocial">
 								<div id="columnaTwitter">
-									<%= link_to image_tag("twitter.png"), "https://www.twitter.com" %>
+									twitter
 								</div>
 							</div>
 							<div class="cajaSocialTexto">Mandanos un Tweet</div>
 						</div>
+						</a>
+						<a href="https://www.tumblr.com">
 						<div class="span2">
 							<div class="cajaSocial">
 								<div id="columnaTumblr">
-									<%= link_to image_tag("tumblr.png"), "https://www.tumblr.com" %>
+									tumblr
 								</div>
 							</div>
+						
 							<div class="cajaSocialTexto">Tumblr</div>
 						</div>
+						</a>
+						
+						<a href="https://www.linkedin.com">
 						<div class="span2">
 							<div class="cajaSocial">
 								<div id="columnalinkedIn">
-									<%= link_to image_tag("linkedIn.png"), "http://www.linkedin.com/" %>
+									linked
 								</div>
 							</div>
-							<div class="cajaSocialTexto">Linked In</div>
+							<div class="cajaSocialTexto">Solo Profesionales</div>
 						</div>
+						</a>
 					</div>
 				</div>
 		</div>

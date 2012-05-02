@@ -1,6 +1,6 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1335985195.7860532:@value{	I"length:EFi>!I"digest;
-F"%c44b62e0b6749e8dc30f49909cfa35b7I"source;
-FI">!/*
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1335990268.912735:@value{	I"length:EFi¨!I"digest;
+F"%d6eb4e0790a5410d3c9425f1315d4b52I"source;
+FI"¨!/*
  * This is a manifest file that'll automatically include all the stylesheets available in this directory
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
@@ -20,7 +20,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', end
 .fondo2{ background:#CCCCCC;}
 .fomdo3{background:#E5E5E5; background-image: url("assets/images/pattern.png") background-repeat:repeat-x;}
 .Contenedor{width:960px; margin:0 auto; padding:0px;}
-.Cabeza { border:1px solid red;}
+.Cabeza a{ border:1px solid red; font-size:18px; color:white; text-decoration:none;}
+.Cabeza a:hover{color:#CCCCCC; text-decoration:none;}
 .bordeGris{border-top:1px solid #444444;}
 .bordeGris2{border-top:1px solid #aaaaaa;}
 .bordeGris3{border-top:1px solid #D8D8D8; margin:10px 0 0 0;}
@@ -5619,4 +5620,4 @@ div.field, div.actions {
 
 ;
 FI"_version;
-F"%a56daf96eea9cd28766680114dd10fcd
+F"%feeaf700ba9cc9a7467efc141fa03f77

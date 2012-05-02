@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1335985195.783082:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1335990268.909413:@value{I"
 class:EFI"BundledAsset;
 FI"id;
-F"%a56daf96eea9cd28766680114dd10fcdI"logical_path;
+F"%feeaf700ba9cc9a7467efc141fa03f77I"logical_path;
 FI"application.css;
 TI"pathname;
 FI"1$root/app/assets/stylesheets/application.css;
@@ -9,9 +9,9 @@ FI"content_type;
 FI"text/css;
 FI"
 mtime;
-FI"2012-05-02T13:59:53-05:00;
+FI"2012-05-02T15:24:22-05:00;
 FI"	body;
-FI"ƒ/*
+FI"í/*
  * This is a manifest file that'll automatically include all the stylesheets available in this directory
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
@@ -31,7 +31,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', end
 .fondo2{ background:#CCCCCC;}
 .fomdo3{background:#E5E5E5; background-image: url("assets/images/pattern.png") background-repeat:repeat-x;}
 .Contenedor{width:960px; margin:0 auto; padding:0px;}
-.Cabeza { border:1px solid red;}
+.Cabeza a{ border:1px solid red; font-size:18px; color:white; text-decoration:none;}
+.Cabeza a:hover{color:#CCCCCC; text-decoration:none;}
 .bordeGris{border-top:1px solid #444444;}
 .bordeGris2{border-top:1px solid #aaaaaa;}
 .bordeGris3{border-top:1px solid #D8D8D8; margin:10px 0 0 0;}
@@ -174,9 +175,9 @@ F[{I"	path;
 FI"1$root/app/assets/stylesheets/application.css;
 FI"
 mtime;
-FIu:	TimeR€  Pï:@_zoneI"CDT;
+FIu:	TimeT€  `a:@_zoneI"CDT;
 T:offsetiþ°¹I"hexdigest;
-F"%703cabca94589f2cc7bcceef4f86fe54{I"	path;
+F"%0d81b10687f2638f884ca5808611852b{I"	path;
 FI"!$root/app/assets/stylesheets;
 FI"
 mtime;
