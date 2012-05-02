@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1335983922.875784:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1335985195.783082:@value{I"
 class:EFI"BundledAsset;
 FI"id;
-F"%47417dd9031823982635c8ce8d507c99I"logical_path;
+F"%a56daf96eea9cd28766680114dd10fcdI"logical_path;
 FI"application.css;
 TI"pathname;
 FI"1$root/app/assets/stylesheets/application.css;
@@ -9,9 +9,9 @@ FI"content_type;
 FI"text/css;
 FI"
 mtime;
-FI"2012-05-02T13:37:54-05:00;
+FI"2012-05-02T13:59:53-05:00;
 FI"	body;
-FI"/*
+FI"ƒ/*
  * This is a manifest file that'll automatically include all the stylesheets available in this directory
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
@@ -60,6 +60,12 @@ border-bottom-left-radius: 1px;}
 
 #columnaTumblr{float:left; display: block; width:100px; height:50px;background: url('/assets/tumblr.png') top;text-indent: -99999px;}
 #columnaTumblr:hover {background-position: 0 50px;}
+
+#columnaTwitter{float:left; display: block; width:100px; height:50px;background: url('/assets/twitter.png') top;text-indent: -99999px;}
+#columnaTwitter:hover {background-position: 0 50px;}
+
+#columnalinkedIn{float:left; display: block; width:100px; height:50px;background: url('/assets/linkedIn.png') top;text-indent: -99999px;}
+#columnalinkedIn:hover {background-position: 0 50px;}
 
 .cajaSocial img{ text-align:center;}
 .cajaSocialTexto{
@@ -168,9 +174,9 @@ F[{I"	path;
 FI"1$root/app/assets/stylesheets/application.css;
 FI"
 mtime;
-FIu:	TimeR€  `—:@_zoneI"CDT;
+FIu:	TimeR€  Pï:@_zoneI"CDT;
 T:offsetiþ°¹I"hexdigest;
-F"%49f733f6579121d18ff7da795fe13bf4{I"	path;
+F"%703cabca94589f2cc7bcceef4f86fe54{I"	path;
 FI"!$root/app/assets/stylesheets;
 FI"
 mtime;
