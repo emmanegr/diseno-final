@@ -2,6 +2,8 @@ Diseno::Application.routes.draw do
 
 
   get "inicio/index"
+  
+  match "facebook" => "https://www.facebook.com", :as => :face 
 
   resources :comentarios
 
