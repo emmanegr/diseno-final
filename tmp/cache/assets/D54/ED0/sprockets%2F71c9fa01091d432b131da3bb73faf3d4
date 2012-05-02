@@ -1,6 +1,6 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1335956745.250839:@value{	I"length:EFiI"digest;
-F"%dbf78f50597d3d275d4139654c264dd0I"source;
-FI"/*
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1335958263.391922:@value{	I"length:EFiLI"digest;
+F"%185a6c65d22b1aadc41ebc98faa2bf8dI"source;
+FI"L/*
  * This is a manifest file that'll automatically include all the stylesheets available in this directory
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
@@ -34,6 +34,30 @@ h1 { font-family: Arial, Helvetica, sans-serif; font-weight: 400; }
 .textoImgFooter{margin:10px; color: white; font-size:14px;}
 #FraseJocosa{ color:white; margin:40px 0; font-size:30px; text-shadow: 0px 2px 1px #212121;filter: dropshadow(color=#212121, offx=0, offy=2);}
 .imagenFooter img{margin:-20px 0 0 0; float:right; width:30px; height:30px;}
+.cajaSocial{height:150px; margin:20px 0; background:#DDDDDD; -webkit-border-radius: 10px;
+-webkit-border-bottom-right-radius: 1px;
+-webkit-border-bottom-left-radius: 1px;
+-moz-border-radius: 10px;
+-moz-border-radius-bottomright: 1px;
+-moz-border-radius-bottomleft: 1px;
+border-radius: 10px;
+border-bottom-right-radius: 1px;
+border-bottom-left-radius: 1px;}
+
+.cajaSocial img{ text-align:center;}
+.cajaSocialTexto{
+font-size:16px; color:white; text-align:center; background:#232323;
+margin:-20px 0 30px 0;
+padding:10px 0;
+-webkit-border-radius: 1px;
+-webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius: 1px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-radius: 1px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;}
 
 .menuFooter{ background-color:#232323; padding:30px 0; border-top:1px solid #CECECE; border-bottom:1px solid #CECECE;}
 .kwicks {background: #5e5e5e; /* Old browsers */
@@ -100,7 +124,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', end
 
 .textocentrado{text-align:center;}
 
-#DerechosAutor{ font-family: Arial, Helvetica, sans-serif; font-size:16px; color:#D6D6D6; margin:10px; padding:20px 0 0 0;}
+#DerechosAutor{ font-family: Arial, Helvetica, sans-serif; font-size:16px; color:#D6D6D6; margin:10px; padding:20px 0;}
 /*!
  * Bootstrap Responsive v2.0.2
  *
@@ -5583,4 +5607,4 @@ div.field, div.actions {
 
 ;
 FI"_version;
-F"%1bea8fc76c80764ed0641b894e7b49f3
+F"%92dfa810b48ef006e2fad07a799d2905

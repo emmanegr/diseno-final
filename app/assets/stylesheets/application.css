@@ -33,6 +33,30 @@ h1 { font-family: Arial, Helvetica, sans-serif; font-weight: 400; }
 .textoImgFooter{margin:10px; color: white; font-size:14px;}
 #FraseJocosa{ color:white; margin:40px 0; font-size:30px; text-shadow: 0px 2px 1px #212121;filter: dropshadow(color=#212121, offx=0, offy=2);}
 .imagenFooter img{margin:-20px 0 0 0; float:right; width:30px; height:30px;}
+.cajaSocial{height:150px; margin:20px 0; background:#DDDDDD; -webkit-border-radius: 10px;
+-webkit-border-bottom-right-radius: 1px;
+-webkit-border-bottom-left-radius: 1px;
+-moz-border-radius: 10px;
+-moz-border-radius-bottomright: 1px;
+-moz-border-radius-bottomleft: 1px;
+border-radius: 10px;
+border-bottom-right-radius: 1px;
+border-bottom-left-radius: 1px;}
+
+.cajaSocial img{ text-align:center;}
+.cajaSocialTexto{
+font-size:16px; color:white; text-align:center; background:#232323;
+margin:-20px 0 30px 0;
+padding:10px 0;
+-webkit-border-radius: 1px;
+-webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius: 1px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-radius: 1px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;}
 
 .menuFooter{ background-color:#232323; padding:30px 0; border-top:1px solid #CECECE; border-bottom:1px solid #CECECE;}
 .kwicks {background: #5e5e5e; /* Old browsers */
@@ -99,4 +123,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', end
 
 .textocentrado{text-align:center;}
 
-#DerechosAutor{ font-family: Arial, Helvetica, sans-serif; font-size:16px; color:#D6D6D6; margin:10px; padding:20px 0 0 0;}
+#DerechosAutor{ font-family: Arial, Helvetica, sans-serif; font-size:16px; color:#D6D6D6; margin:10px; padding:20px 0;}
