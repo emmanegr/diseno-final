@@ -1,6 +1,6 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1335956047.4468899:@value{	I"length:EFi¯I"digest;
-F"%30b14281f61ff9f11386e8f4464c103cI"source;
-FI"¯/*
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1335956745.250839:@value{	I"length:EFiI"digest;
+F"%dbf78f50597d3d275d4139654c264dd0I"source;
+FI"/*
  * This is a manifest file that'll automatically include all the stylesheets available in this directory
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
@@ -33,8 +33,9 @@ h1 { font-family: Arial, Helvetica, sans-serif; font-weight: 400; }
 #Contenedor2{width:960px; margin:0 auto; padding:0px; background-color:blue;}
 .textoImgFooter{margin:10px; color: white; font-size:14px;}
 #FraseJocosa{ color:white; margin:40px 0; font-size:30px; text-shadow: 0px 2px 1px #212121;filter: dropshadow(color=#212121, offx=0, offy=2);}
+.imagenFooter img{margin:-20px 0 0 0; float:right; width:30px; height:30px;}
 
-.menuFooter{ background-color:#232323; padding:30px 0;}
+.menuFooter{ background-color:#232323; padding:30px 0; border-top:1px solid #CECECE; border-bottom:1px solid #CECECE;}
 .kwicks {background: #5e5e5e; /* Old browsers */
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
 background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxMiUiIHN0b3AtY29sb3I9IiM1ZTVlNWUiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMmQyZDJkIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
@@ -99,7 +100,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', end
 
 .textocentrado{text-align:center;}
 
-#DerechosAutor{ font-family: Arial, Helvetica, sans-serif; font-size:16px; color:#D6D6D6; margin:10px; padding:20px 0 0 0; border-top:1px solid #C9C9C9;}
+#DerechosAutor{ font-family: Arial, Helvetica, sans-serif; font-size:16px; color:#D6D6D6; margin:10px; padding:20px 0 0 0;}
 /*!
  * Bootstrap Responsive v2.0.2
  *
@@ -5582,4 +5583,4 @@ div.field, div.actions {
 
 ;
 FI"_version;
-F"%42246b92ec80c4291a00c738a5b4cb05
+F"%1bea8fc76c80764ed0641b894e7b49f3
