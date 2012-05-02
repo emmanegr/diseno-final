@@ -43,8 +43,8 @@ border-radius: 10px;
 border-bottom-right-radius: 1px;
 border-bottom-left-radius: 1px;}
 
-#columnaFace{margin:0 0 0 0;float:left; display: block; width:200px; height:140px;background: url('/assets/button-subscribe.png') top;text-indent: -99999px;}
-	#columnaFace:hover {background-position: 0 30px;}
+#columnaFace{float:left; display: block; width:200px; height:139px;background: url('/assets/facebook.png') top;text-indent: -99999px;}
+#columnaFace:hover {background-position: 0 139px;}
 
 .cajaSocial img{ text-align:center;}
 .cajaSocialTexto{
