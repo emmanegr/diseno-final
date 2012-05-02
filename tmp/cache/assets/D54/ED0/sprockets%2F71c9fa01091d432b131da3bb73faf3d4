@@ -1,6 +1,6 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1335980910.635993:@value{	I"length:EFiI"digest;
-F"%93b0f32ffe41906641ccbd69fcdbdbd2I"source;
-FI"/*
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1335981712.886851:@value{	I"length:EFiI"digest;
+F"%a99fc760c71403dc4233f6eba2266adeI"source;
+FI"/*
  * This is a manifest file that'll automatically include all the stylesheets available in this directory
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
@@ -34,7 +34,7 @@ h1 { font-family: Arial, Helvetica, sans-serif; font-weight: 400; }
 .textoImgFooter{margin:10px; color: white; font-size:14px;}
 #FraseJocosa{ color:white; margin:40px 0; font-size:30px; text-shadow: 0px 2px 1px #212121;filter: dropshadow(color=#212121, offx=0, offy=2);}
 .imagenFooter img{margin:-20px 0 0 0; float:right; width:30px; height:30px;}
-.cajaSocial{height:150px; margin:20px 0; background:#DDDDDD; -webkit-border-radius: 10px;
+.cajaSocial{height:50px; margin:20px 0; background:#DDDDDD; -webkit-border-radius: 10px;
 -webkit-border-bottom-right-radius: 1px;
 -webkit-border-bottom-left-radius: 1px;
 -moz-border-radius: 10px;
@@ -44,8 +44,8 @@ border-radius: 10px;
 border-bottom-right-radius: 1px;
 border-bottom-left-radius: 1px;}
 
-#columnaFace{float:left; display: block; width:200px; height:139px;background: url('/assets/facebook.png') top;text-indent: -99999px;}
-#columnaFace:hover {background-position: 0 139px;}
+#columnaFace{float:left; display: block; width:100px; height:50px;background: url('/assets/facebook.png') top;text-indent: -99999px;}
+#columnaFace:hover {background-position: 0 50px;}
 
 .cajaSocial img{ text-align:center;}
 .cajaSocialTexto{
@@ -5610,4 +5610,4 @@ div.field, div.actions {
 
 ;
 FI"_version;
-F"%705773b66b9a7eef8604c2f04efc4a27
+F"%8cfccf2b6ebc8862bd5c565d084648a2
