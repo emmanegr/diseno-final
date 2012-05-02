@@ -47,6 +47,7 @@
 		<div class="row">
 			<div class="span12">
 				<div class="row container">
+<<<<<<< HEAD
 					<div class="span2">
 						<div class="Cabeza">
 							<h1><%= link_to "Inicio" , root_path %> <div class="iconos Cabeza"><%= image_tag ("home.png") %></div></h1>
@@ -86,6 +87,21 @@
 						
 					</div>
 					<% end %>
+=======
+					<ul class="kwicks horizontal" >
+						<li class="span2" id="kwick_1"> <h1><%= link_to "Inicio", root_path %></h1> 
+							
+						</li>
+						<li class="span2" id="kwick_2"> <h1><%= link_to "Galería" , categorias_path %></h1></li>
+						<li class="span2" id="kwick_3"> <h1><%= link_to "Compartir", posts_path %></h1></li>
+						
+						<li class="span2" id="kwick_2"> <h1><%= link_to "Concursos" , categorias_path %></h1></li>
+						<li class="span2" id="kwick_2"> <h1><%= link_to "Extranjero" , categorias_path %></h1></li>
+						<% if current_user %>
+						<li class="span2" id="kwick_4"> <h1><%= link_to "Mi cuenta", :account %></h1></li>
+						<% end %>
+					</ul>
+>>>>>>> Listo, sin iconos
 				</div>
 			</div>
 		</div>
@@ -196,10 +212,10 @@
 				
 				<div class="span3">
 					<div class="tituloFooter">
-						<%= link_to "Extrangero", :account %><div class="imagenFooter"><%= image_tag ("extrangero.png") %></div>
+						<%= link_to "Extranjero", :account %><div class="imagenFooter"><%= image_tag ("extrangero.png") %></div>
 					</div>
 					<div class="bordeGris3">
-					<div class="textoImgFooter">Más texto sobre extrangero</div>
+					<div class="textoImgFooter">Más texto sobre extranjero</div>
 				</div>
 				</div>
 			
