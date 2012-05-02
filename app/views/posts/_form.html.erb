@@ -2,16 +2,16 @@
   <%= f.error_notification %>
 
   <div class="form-inputs">
-    <%= f.input :titulo %>
-    <%= f.input :subtitulo %>
-    <%= f.input :descripcion %>
-    <%= f.text_field :user_id, :value => current_user.id %>
-    <%= f.association :categorias, :as => :check_boxes  %>
-    <%= f.input :fotopost1 %>
-    <%= f.input :fotopost2 %>
-    <%= f.input :fotopost3 %>
-    <%= f.input :fotopost4 %>
-    <%= f.input :fotopost5 %>
+    <%= f.input :titulo, :label => 'Titulo de Proyecto' %>
+    <%= f.input :subtitulo, :label => 'Subtitulo de Proyecto' %>
+    <%= f.input :descripcion, :label => 'Descripcion' %>
+    <%= f.text_field :user_id, :value => current_user.id, :type => "hidden" %>
+    <%= f.association :categorias, :as => :check_boxes, :label => 'Categoria'  %>
+    <%= f.input :fotopost1, :label => 'Imagen 1' %>
+    <%= f.input :fotopost2, :label => 'Imagen 2' %>
+    <%= f.input :fotopost3, :label => 'Imagen 3' %>
+    <%= f.input :fotopost4, :label => 'Imagen 4' %>
+    <%= f.input :fotopost5, :label => 'Imagen 5' %>
   </div>
 
   <div class="form-actions">

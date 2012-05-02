@@ -1,8 +1,5 @@
 <p id="notice"><%= notice %></p>
-<p>
-<%= image_tag @post.fotopost1.url :thumb %>
 
-</p>
 <p>
   <b>Titulo:</b>
   <%= @post.titulo %>
@@ -19,23 +16,23 @@
 </p>
 
 <p>
-  <b>User:</b>
+  <b>Usuario:</b>
   <%= @post.user.name %>
 </p>
 
 <p>
-  <b>Gusta:</b>
+  <b>Me Gusta:</b>
   <%= @post.gusta %>
 </p>
 
 <p>
-  <b>Nogusta:</b>
+  <b>No me gusta:</b>
   <%= @post.nogusta %>
 </p>
 
 
 <p>
-  <b>Vistas:</b>
+  <b>Numero de Vistas:</b>
   <%= @post.vistas %>
 </p>
 
@@ -69,10 +66,10 @@
 <%= form_for (@comentario), :remote => true do |f| %>
 
   <div class="form-inputs">
-    <%= f.label :contenido %>
-    <%= f.text_area :contenido %>
-    <%= f.text_field :user_id, :value => current_user.id %>
-    <%= f.text_field :post_id, :value => @post.id %>
+    <%= f.label Comentario %>
+    <%= f.text_area :contenido%>
+    <%= f.text_field :user_id, :value => current_user.id, :type => "hidden" %>
+    <%= f.text_field :post_id, :value => @post.id, :type => "hidden" %>
   </div>
 
   <div class="form-actions">
