@@ -1,0 +1,17 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1335983614.621144:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%459897bfd87822ea8075d8f55cce2826I"logical_path;
+FI"tumblr.png;
+TI"pathname;
+FI"'$root/app/assets/images/tumblr.png;
+FI"content_type;
+FI"image/png;
+FI"
+mtime;
+FI"2012-05-02T13:31:10-05:00;
+FI"length;
+FI"	1339;
+FI"digest;
+F"%63e706d1cb2ee6ea65625c0e9c8c89d9I"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5

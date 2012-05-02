@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1335981712.883608:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1335983922.875784:@value{I"
 class:EFI"BundledAsset;
 FI"id;
-F"%8cfccf2b6ebc8862bd5c565d084648a2I"logical_path;
+F"%47417dd9031823982635c8ce8d507c99I"logical_path;
 FI"application.css;
 TI"pathname;
 FI"1$root/app/assets/stylesheets/application.css;
@@ -9,9 +9,9 @@ FI"content_type;
 FI"text/css;
 FI"
 mtime;
-FI"2012-05-02T13:01:50-05:00;
+FI"2012-05-02T13:37:54-05:00;
 FI"	body;
-FI"I/*
+FI"/*
  * This is a manifest file that'll automatically include all the stylesheets available in this directory
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
@@ -57,6 +57,9 @@ border-bottom-left-radius: 1px;}
 
 #columnaFace{float:left; display: block; width:100px; height:50px;background: url('/assets/facebook.png') top;text-indent: -99999px;}
 #columnaFace:hover {background-position: 0 50px;}
+
+#columnaTumblr{float:left; display: block; width:100px; height:50px;background: url('/assets/tumblr.png') top;text-indent: -99999px;}
+#columnaTumblr:hover {background-position: 0 50px;}
 
 .cajaSocial img{ text-align:center;}
 .cajaSocialTexto{
@@ -165,13 +168,13 @@ F[{I"	path;
 FI"1$root/app/assets/stylesheets/application.css;
 FI"
 mtime;
-FIu:	TimeR€   :@_zoneI"CDT;
+FIu:	TimeR€  `—:@_zoneI"CDT;
 T:offsetiþ°¹I"hexdigest;
-F"%2bcbed0209c272e7916a7f7f99730a7a{I"	path;
+F"%49f733f6579121d18ff7da795fe13bf4{I"	path;
 FI"!$root/app/assets/stylesheets;
 FI"
 mtime;
-FIu;#€  p›;I"CDT;
+FIu;R€   |;I"CDT;
 T;iþ°¹I"hexdigest;
 F"%9b119513d27a392d25e446bbbf55b94d{I"	path;
 FI":$root/app/assets/stylesheets/bootstrap-responsive.css;

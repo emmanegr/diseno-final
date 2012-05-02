@@ -46,6 +46,9 @@ border-bottom-left-radius: 1px;}
 #columnaFace{float:left; display: block; width:100px; height:50px;background: url('/assets/facebook.png') top;text-indent: -99999px;}
 #columnaFace:hover {background-position: 0 50px;}
 
+#columnaTumblr{float:left; display: block; width:100px; height:50px;background: url('/assets/tumblr.png') top;text-indent: -99999px;}
+#columnaTumblr:hover {background-position: 0 50px;}
+
 .cajaSocial img{ text-align:center;}
 .cajaSocialTexto{
 font-size:16px; color:white; text-align:center; background:#232323;
