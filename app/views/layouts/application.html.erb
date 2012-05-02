@@ -48,14 +48,16 @@
 			<div class="span8">
 				<div class="row container">
 					<ul class="kwicks horizontal" >
-						<li class="span2" id="kwick_1"> <h1><%= link_to "Inicio", root_path %></h1></li>
-						<li class="span2" id="kwick_2"> <h1><%= link_to "Galería" , categorias_path %></h1></li>
-						<li class="span2" id="kwick_3"> <h1><%= link_to "Compartir", posts_path %></h1></li>
+						<li class="span2" id="kwick_1"> <h1><%= link_to "Inicio", root_path %> <div class="iconos"><%= image_tag ("home.png") %></div></h1> 
+							
+						</li>
+						<li class="span2" id="kwick_2"> <h1><%= link_to "Galería" , categorias_path %> <div class="iconos"><%= image_tag ("galeria.png") %></div></h1></li>
+						<li class="span2" id="kwick_3"> <h1><%= link_to "Compartir", posts_path %> <div class="iconos"><%= image_tag ("compartir.png") %></div></h1></li>
 						
-						<li class="span2" id="kwick_2"> <h1><%= link_to "Concursos" , categorias_path %></h1></li>
-						<li class="span2" id="kwick_2"> <h1><%= link_to "El Extranjero" , categorias_path %></h1></li>
+						<li class="span2" id="kwick_2"> <h1><%= link_to "Concursos" , categorias_path %><div class="iconos"><%= image_tag ("concurso.png") %></div></h1></li>
+						<li class="span2" id="kwick_2"> <h1><%= link_to "Extranjero" , categorias_path %><div class="iconos"><%= image_tag ("extrangero.png") %></div></h1></li>
 						<% if current_user %>
-						<li class="span2" id="kwick_4"> <h1><%= link_to "Mi cuenta", :account %></h1></li>
+						<li class="span2" id="kwick_4"> <h1><%= link_to "Mi cuenta", :account %><div class="iconos"><%= image_tag ("usuario.png") %></div></h1></li>
 						<% end %>
 					</ul>
 				</div>
@@ -85,28 +87,54 @@
 		<div class="row">
 			<div class="row container">
 				<div class="span12 textocentrado">
-						jojoj
+					<div id="FraseJocosa">
+						Anda sube tus trabajos, date a conocer.
+					</div>
 				</div>
 			</div>
 			<div class="span2">
 				<div class="tituloFooter">
-					Galería
+					Galería<%= image_tag ("galeria.png") %>
 				</div>
-				<div><%= image_tag ("galeria") %></div>
+				<div class="bordeGris3">
+					<div class="textoImgFooter">holo</div>
+				</div>
 			</div>
 			<div class="span2">
-				holo 2
+				<div class="tituloFooter">
+					Compartir <%= image_tag ("compartir.png") %>
+				</div>
+				<div class="bordeGris3">
+					<div class="textoImgFooter">holo</div>
+				</div>
 			</div>
 			<div class="span2">
-				holo 2
+				<div class="tituloFooter">
+					<%= link_to "Concurso", :account %><%= image_tag ("concurso.png") %>
+				</div>
+				<div class="bordeGris3">
+					<div class="textoImgFooter">holo</div>
+				</div>
 			</div>
 			
 			<div class="span3">
-				holo 2
+				<div class="tituloFooter">
+					<%= link_to "Extrangero", :account %><%= image_tag ("extrangero.png") %>
+				</div>
+				<div class="bordeGris3">
+					<div class="textoImgFooter">Más texto sobre extrangero</div>
+				</div>
 			</div>
 			
 			<div class="span3">
-				holo 2
+				<div class="tituloFooter">
+				<%= link_to "Mi Cuenta", :account %>	<%= image_tag ("usuario.png") %>
+				</div>
+				<div class="bordeGris3">
+					<div class="textoImgFooter">holo</div>
+				</div>
+			</div>
+			<div></div>
 			</div>
 			<div class="row container">
 				<div class="span12 textocentrado">

@@ -22,11 +22,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', end
 .Cabeza { border:1px solid red;}
 .bordeGris{border-top:1px solid #444444;}
 .bordeGris2{border-top:1px solid #aaaaaa;}
+.bordeGris3{border-top:1px solid #D8D8D8; margin:10px 0 0 0;}
 h1 { font-family: Arial, Helvetica, sans-serif; font-weight: 400; }
-
+.tituloFooter a{color:#E5E5E5; font-weight:bold; font-size:14px; text-decoration:none;}
+.tituloFooter a:hover{color:#E5E5E5; font-weight:bold; font-size:14px; text-decoration:none;}
+.iconos img{ float:right; margin: -30px 0 0 10px; width:30px; height:30px;}
+.iconosFooter img{ float:left; margin: 0 0 0 90px; width:30px; height:30px;}
 .clear{clear:both;}
 #Contenedor2{width:960px; margin:0 auto; padding:0px; background-color:blue;}
-
+.textoImgFooter{margin:10px; color: white; font-size:14px;}
+#FraseJocosa{ color:white; margin:40px 0; font-size:30px; text-shadow: 0px 2px 1px #212121;filter: dropshadow(color=#212121, offx=0, offy=2);}
 
 
 .kwicks {background: #5e5e5e; /* Old browsers */
@@ -93,4 +98,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', end
 
 .textocentrado{text-align:center;}
 
-#DerechosAutor{ font-family: Arial, Helvetica, sans-serif; font-size:16px; color:#D6D6D6;}
+#DerechosAutor{ font-family: Arial, Helvetica, sans-serif; font-size:16px; color:#D6D6D6; margin:10px; padding:20px 0 0 0; border-top:1px solid #C9C9C9;}

@@ -1,0 +1,17 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1335951451.138143:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%19f8e03b0af40e5a473930435d82c6c3I"logical_path;
+FI"galeria.png;
+TI"pathname;
+FI"($root/app/assets/images/galeria.png;
+FI"content_type;
+FI"image/png;
+FI"
+mtime;
+FI"2012-05-02T03:53:58-05:00;
+FI"length;
+FI"	2385;
+FI"digest;
+F"%fdfb4cdd6cb2e33e53742c3de39d3be6I"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5

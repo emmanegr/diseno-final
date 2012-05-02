@@ -1,0 +1,17 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1335951551.216497:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%013ab7d186c0aa7e6f2e4281cbfa3ca6I"logical_path;
+FI"concurso.png;
+TI"pathname;
+FI")$root/app/assets/images/concurso.png;
+FI"content_type;
+FI"image/png;
+FI"
+mtime;
+FI"2012-05-02T04:01:56-05:00;
+FI"length;
+FI"	3419;
+FI"digest;
+F"%2a3c5d5442cb4fa415380b6f1b205175I"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5

@@ -1,0 +1,17 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1335951503.924117:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%e212a7229cb2d338ff883610770941eeI"logical_path;
+FI"compartir.png;
+TI"pathname;
+FI"*$root/app/assets/images/compartir.png;
+FI"content_type;
+FI"image/png;
+FI"
+mtime;
+FI"2012-05-02T04:18:16-05:00;
+FI"length;
+FI"	2578;
+FI"digest;
+F"%4db49eee0a5aaa3bf5c1428363483f70I"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5

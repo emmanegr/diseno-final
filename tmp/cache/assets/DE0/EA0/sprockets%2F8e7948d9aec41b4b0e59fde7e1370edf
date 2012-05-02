@@ -1,0 +1,17 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1335951551.227854:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%5debc869921fd331a700c7fdc8222312I"logical_path;
+FI"extrangero.png;
+TI"pathname;
+FI"+$root/app/assets/images/extrangero.png;
+FI"content_type;
+FI"image/png;
+FI"
+mtime;
+FI"2012-05-02T03:55:25-05:00;
+FI"length;
+FI"	1608;
+FI"digest;
+F"%24c967ba19090abb8211e28a8ec95960I"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5
