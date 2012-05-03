@@ -5,15 +5,15 @@
 				<%  @posts = Post.paginate(:page => params[:page], :per_page => 2) %>
 	  			<% @posts.each do |post| %>
 				<div class="row ">
-					<div class="span11 ">
-						<%=link_to (image_tag post.fotopost1.url :thumb), post %>
+					<div class="span11 textocentrado">
+						<%=link_to (image_tag post.fotopost1.url :big), post %>
 					</div>
 				</div>
 		</div>
 
 <div class="row-fluid margenes">	
 	<div class="container">
-		<div class="row ">
+		<div class="row">
 			<div class="span11 ">
 				<div class="tituloObra">
     				<%=link_to post.titulo, post %>
