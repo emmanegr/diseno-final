@@ -1,6 +1,6 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336036130.069369:@value{	I"length:EFiÐI"digest;
-F"%075cac9085c6f1f0624ed5ef606763bbI"source;
-FI"Ð/*
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336044637.256418:@value{	I"length:EFiJI"digest;
+F"%a505f17e8f2991b6dfaef5776268e8ddI"source;
+FI"J/*
  * This is a manifest file that'll automatically include all the stylesheets available in this directory
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
@@ -49,6 +49,13 @@ border-bottom-left-radius: 1px;}
 
 #columnaFace{float:left; display: block; width:100px; height:50px;background: url('/assets/facebook.png') top;text-indent: -99999px;}
 #columnaFace:hover {background-position: 0 50px;}
+
+
+#columnaReddit{float:left; display: block; width:100px; height:50px;background: url('/assets/reddit.png') top;text-indent: -99999px;}
+#columnaReddit:hover {background-position: 0 50px;}
+
+#columnaYouTube{float:left; display: block; width:100px; height:50px;background: url('/assets/youTube.png') top;text-indent: -99999px;}
+#columnaYouTube:hover {background-position: 0 50px;}
 
 #columnaTumblr{float:left; display: block; width:100px; height:50px;background: url('/assets/tumblr.png') top;text-indent: -99999px;}
 #columnaTumblr:hover {background-position: 0 50px;}
@@ -5617,4 +5624,4 @@ div.field, div.actions {
 
 ;
 FI"_version;
-F"%9146876207e0676995134412233d37bb
+F"%fc8dddfd9403c74139553f6ce5b46bbb

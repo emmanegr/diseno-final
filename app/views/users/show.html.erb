@@ -1,117 +1,120 @@
+<h1><%= t(:MiCuenta) %></h1>
+
 <div class="general">
-	<div class="row">
+	<div class="row-flow">
 		<div class="container">
-			
-			<div class="span12 imagen">
-				<p>
-					<%= image_tag @user.avatar.url :big %>
-				</p>	
-			</div>
-			<div class="span2">
-				<div class="titulo">
+			<div class="row">
+				<div class="span12 imagen">
 					<p>
-		  				<b>Usuario:</b>
-					</p>
+						<%= image_tag @user.avatar.url :big %>
+					</p>	
 				</div>
-				<div class="margenes2">
-		  			<%=h @user.name %>
+				<div class="span12">
+					<div class="titulo">
+						<p>
+			  				<b>Usuario:</b>
+						</p>
+					</div>
+					<div class="margenes2">
+			  			<%=h @user.name %>
+					</div>
 				</div>
-			</div>
 			
-			<div class="span3">
-				<div class="titulo">
-					<p>
-		  				<b>Nombre:</b>
-					</p>
-				</div>
+				<div class="span12">
+					<div class="titulo">
+						<p>
+			  				<b>Nombre:</b>
+						</p>
+					</div>
 
-				<div class="margenes2">
-		  			<%=h @user.nombre %>
-					<%=h @user.apellido %>
+					<div class="margenes2">
+			  			<%=h @user.nombre %>
+						<%=h @user.apellido %>
+					</div>
 				</div>
-			</div>
 			
-			<div class="span2">
-				<div class="titulo">
-					<p>
-		  				<b>Profesion:</b>
-					</p>
+				<div class="span12">
+					<div class="titulo">
+						<p>
+			  				<b>Profesion:</b>
+						</p>
+					</div>
+					<div class="margenes2">
+			  			<%=h @user.profesion %>
+					</div>
 				</div>
-				<div class="margenes2">
-		  			<%=h @user.profesion %>
-				</div>
-			</div>
 			
-			<div class="span2">
-				<div class="titulo">
-					<p>
-		  				<b>Email:</b>
+				<div class="span12">
+					<div class="titulo">
+						<p>
+			  				<b>Email:</b>
 		
-					</p>
+						</p>
+					</div>
+					<div class="margenes2">
+			  			<%=h @user.email %>
+					</div>
 				</div>
-				<div class="margenes2">
-		  			<%=h @user.email %>
-				</div>
-			</div>
 			
-			<div class="span3">
-				<div class="titulo">
+				<div class="span12">
+					<div class="titulo">
+						<p>
+
+			  				<b>Compania:</b>
+
+
+						</p>
+					</div>
+
+					<div class="margenes2">
+			  			<%=h @user.compania %>
+					</div>
+				</div>
+			
+				<div class="span12">
+					<div class="titulo">
+						<p>
+			  				<b>Sitio Web:</b>
+						</p>
+					</div>
+					<div class="margenes2">
+			  			<%=h @user.web %>
+					</div>
+				</div>
+			
+				<div class="span12">
+					<div class="titulo">
 					<p>
-
-		  				<b>Compania:</b>
-
+					  <b>Ciudad y pais:</b>
 
 					</p>
+					</div>
+					<div class="margenes2">
+						<%=h @user.ciudad %>
+					  <%=h @user.pais %> 
+					</div>
 				</div>
-
-				<div class="margenes2">
-		  			<%=h @user.compania %>
-				</div>
-			</div>
 			
-			<div class="span3">
-				<div class="titulo">
+				<div class="span12">
+					<div class="titulo">
 					<p>
-		  				<b>Sitio Web:</b>
+					  <b>Sobre mi:</b>
 					</p>
+					</div>
+					<div class="margenes2">
+					  <%=h @user.about %>
+					</div>
 				</div>
-				<div class="margenes2">
-		  			<%=h @user.web %>
-				</div>
-			</div>
 			
-			<div class="span3">
-				<div class="titulo">
-				<p>
-				  <b>Ciudad y pais:</b>
-
-				</p>
-				</div>
-				<div class="margenes2">
-					<%=h @user.ciudad %>
-				  <%=h @user.pais %> 
-				</div>
-			</div>
-			
-			<div class="span3">
-				<div class="titulo">
-				<p>
-				  <b>Sobre mi:</b>
-				</p>
-				</div>
-				<div class="margenes2">
-				  <%=h @user.about %>
-				</div>
-			</div>
-			
-			<div class="span3">
-				<div class="titulo">
-				<p>
-				 <b>Intereses:</b>
-				</p>
-				</div>
-				<div class="margenes2">
-				      <%= @user.categorias.map {|x| x.to_label}.join ', ' %>
+				<div class="span12">
+					<div class="titulo">
+					<p>
+					 <b>Intereses:</b>
+					</p>
+					</div>
+					<div class="margenes2">
+					      <%= @user.categorias.map {|x| x.to_label}.join ', ' %>
+					</div>
 				</div>
 			</div>
 		</div>

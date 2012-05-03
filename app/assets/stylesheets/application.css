@@ -49,6 +49,13 @@ border-bottom-left-radius: 1px;}
 #columnaFace{float:left; display: block; width:100px; height:50px;background: url('/assets/facebook.png') top;text-indent: -99999px;}
 #columnaFace:hover {background-position: 0 50px;}
 
+
+#columnaReddit{float:left; display: block; width:100px; height:50px;background: url('/assets/reddit.png') top;text-indent: -99999px;}
+#columnaReddit:hover {background-position: 0 50px;}
+
+#columnaYouTube{float:left; display: block; width:100px; height:50px;background: url('/assets/youTube.png') top;text-indent: -99999px;}
+#columnaYouTube:hover {background-position: 0 50px;}
+
 #columnaTumblr{float:left; display: block; width:100px; height:50px;background: url('/assets/tumblr.png') top;text-indent: -99999px;}
 #columnaTumblr:hover {background-position: 0 50px;}
 
