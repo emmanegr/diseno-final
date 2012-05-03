@@ -1,8 +1,5 @@
 class PostsController < ApplicationController
-before_filter :require_user, :only => [:edit, :delete, :update, :index, :new, :show]
-before_filter :es_admin, :only => [:edit, :delete, :update, :index, :new, :show]
-
-before_filter :require_no_user, :only => [:show]
+before_filter :require_user, :only => [:index, :show, :create, :delete, :new]
 
 
   # GET /posts
