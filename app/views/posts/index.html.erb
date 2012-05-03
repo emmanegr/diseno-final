@@ -1,4 +1,4 @@
-<h1>Listing posts</h1>
+<h1>Mis Posts</h1>
 
 <table>
   <tr>
@@ -14,7 +14,7 @@
     <th></th>
     <th></th>
   </tr>
-
+<% @posts = Post.find(:all, :order => "id DESC", :conditions => {:user_id => current_user.id}) %>
 <% @posts.each do |post| %>
   <tr>
     <td><%= image_tag post.fotopost1.url :thumb %></td>
