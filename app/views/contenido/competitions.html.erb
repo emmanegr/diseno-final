@@ -1,8 +1,7 @@
 <h1>Concursos</h1>
 
-<div class="margenes">
-	<div class="row-fluid margenes">
-		<div class="container ">
+<div class="general">
+
 			<% @concursos = Concurso.find(:all, :order => "id DESC") %>
 			<%  @concursos = Concurso.paginate(:page => params[:page], :per_page => 8) %>
   			<% @concursos.each do |concurso| %>
@@ -13,10 +12,5 @@
 					<p><%= concurso.entrega %></p>
 					<p><%= concurso.descripcion %></p>
 			<% end %>
-		</div>
-	</div>
-</div>
 <%= will_paginate @concursos %>
-	<div class="row general">
-	</div>
 </div>

@@ -19,20 +19,29 @@
 				<div class="row">
 					<div class="span2">
 						<% if current_user %>
-						Hola, <%= link_to current_user.name, account_path %>
+					<div class="titulo2">	Hola, <%= link_to current_user.name, account_path %></div>
 					</div>
 					<div class="span2">
-						<%= link_to "Cerrar Sesión", logout_path %>
-						<% else %>
-						<%= link_to "Iniciar Sesión", login_path %>
-						<% end %>
+						<div class="titulo2">
+							<%= link_to "Cerrar Sesión", logout_path %>
+							</div>
+							<% else %>
+							<div class="titulo2">
+							<%= link_to "Iniciar Sesión", login_path %>
+							</div>
+							<% end %>
+						
 					</div>
 				</div>
 			</div>
 			<div class="span2">
-				<% if !current_user %>
-					<%= link_to "Crear Cuenta", signup_path  %>
-				<% end %>
+				
+					<% if !current_user %>
+					<div class="titulo2">
+						<%= link_to "Crear Cuenta", signup_path  %>
+						
+					</div>
+					<% end %>
 			</div>
 		</div>
 	</div>
