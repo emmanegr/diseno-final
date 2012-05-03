@@ -1,6 +1,6 @@
 class BecasController < ApplicationController
 
- before_filter :es_admin, :only => [:edit, :destroy, :new, :update]
+ before_filter :es_admin, :only => [:edit, :destroy, :new, :update, :index]
 
   # GET /becas
   # GET /becas.json

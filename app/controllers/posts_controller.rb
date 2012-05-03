@@ -1,6 +1,7 @@
 class PostsController < ApplicationController
- before_filter :require_user, :only => [:new, :create, :edit, :destroy]
-  
+before_filter :require_user
+
+
 
   # GET /posts
   # GET /posts.json

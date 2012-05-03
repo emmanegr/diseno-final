@@ -1,6 +1,27 @@
+<<<<<<< HEAD
 <div class="margenes">
 	<div class="row general">	
 		<h1>Contenido#estudia</h1>
 		<p>Find me in app/views/contenido/estudia.html.erb</p>
 	</div>
 </div>
+=======
+<h1>Becas en el Extranjero</h1>
+<div class="margenes">
+	<div class="row-fluid margenes">
+		<div class="container ">
+			<% @becas = Beca.find(:all, :order => "id DESC") %>
+			<%  @becas = Beca.paginate(:page => params[:page], :per_page => 8) %>
+  			<% @becas.each do |beca| %>
+			
+					<p><%= link_to (image_tag beca.fotobeca.url :big), beca %></p>
+  					<p><h2><%= link_to beca.nombre, beca %></h2></p>
+				    <p><%= beca.pais %></p>
+				    <p><%= beca.fecha %></p>
+				    <p><%= beca.carreras %></p>
+		<% end %>
+	</div>
+</div>
+</div>
+<%= will_paginate @becas %>
+>>>>>>> cvdc
