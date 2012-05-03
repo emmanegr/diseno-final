@@ -1,6 +1,8 @@
-<h1>Trabajos mas recientes</h1>
+<h1>Todos los Proyectos</h1>
 <% @posts = Post.find(:all, :order => "id DESC") %>
 
+
+<%  @posts = Post.paginate(:page => params[:page], :per_page => 2) %>
   <% @posts.each do |post| %>
   <div>
     <p><%= image_tag post.fotopost1.url :thumb %></p>
@@ -13,4 +15,6 @@
     <p><%= post.vistas %></p>
     <p></p>
  </div>
+
 <% end %>
+<%= will_paginate @posts %>

@@ -9,6 +9,7 @@ gem 'mysql2'
 gem 'authlogic'
 gem 'paperclip', '2.5.0'
 gem 'simple_form', :git => 'git://github.com/plataformatec/simple_form.git'
+gem 'will_paginate'
 
 # Gems used only for assets and not required
 # in production environments by default.
