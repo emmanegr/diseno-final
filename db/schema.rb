@@ -11,24 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120503000404) do
-
-  create_table "becas", :force => true do |t|
-    t.string   "nombre"
-    t.string   "pais"
-    t.string   "web"
-    t.string   "fecha"
-    t.text     "carreras"
-    t.string   "representante"
-    t.string   "contacto"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.text     "descripcion"
-    t.string   "fotobeca_file_name"
-    t.string   "fotobeca_content_type"
-    t.integer  "fotobeca_file_size"
-    t.datetime "fotobeca_updated_at"
-  end
+ActiveRecord::Schema.define(:version => 20120502214218) do
 
   create_table "categorias", :force => true do |t|
     t.string   "nombre"
@@ -74,6 +57,17 @@ ActiveRecord::Schema.define(:version => 20120503000404) do
   end
 
   add_index "concursos", ["categoria_id"], :name => "index_concursos_on_categoria_id"
+
+  create_table "gustas", :force => true do |t|
+    t.boolean  "megusta"
+    t.integer  "user_id"
+    t.integer  "post_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "gustas", ["post_id"], :name => "index_gustas_on_post_id"
+  add_index "gustas", ["user_id"], :name => "index_gustas_on_user_id"
 
   create_table "posts", :force => true do |t|
     t.string   "titulo"

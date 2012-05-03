@@ -1,9 +1,27 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
-  
-  helper_method :current_user_session, :current_user
+    helper_method :current_user_session, :current_user
 
-  private
+    before_filter :cambia_idioma
+
+    def establece_cookie
+      cookies['idioma'] = { :value => params[:locale], :expires =>
+  1.year.from_now } 
+    redirect_to root_path
+    if cookies['idioma'] == "es-MX"
+    flash[:message] = "Has cambiado el idioma a Espanol"
+    elsif cookies['idioma'] == "en"
+      flash[:message] = "Has cambiado el idioma a Ingles"
+    end
+  end
+
+    private
+
+  def cambia_idioma
+      I18n.locale = cookies['idioma'] || I18n.default_locale
+    end
+
+
     def current_user_session
       return @current_user_session if defined?(@current_user_session)
       @current_user_session = UserSession.find

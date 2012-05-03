@@ -1,54 +1,87 @@
-<p>
-<%= image_tag @user.avatar.url :big %>
+<div class="general">
+	
+<div class="imagen">
+	<p>
+	<%= image_tag @user.avatar.url :big %>
+	</p>	
+</div>
 
-</p>
-<p>
-  <b>Nombre de Usuario:</b>
-  <%=h @user.name %>
-</p>
+<div class="titulo">
+	<p>
+  		<b>Usuario:</b>
+</div>
+  		<%=h @user.name %>
+	</p>
 
-<p>
-  <b>Email:</b>
-  <%=h @user.email %>
-</p>
-<p>
-  <b>Nombre:</b>
-  <%=h @user.nombre %>
-</p>
-<p>
-  <b>Apellido:</b>
-  <%=h @user.apellido %>
-</p>
-<p>
-  <b>Profesion:</b>
-  <%=h @user.profesion %>
-</p>
+
+<div class="titulo">
+	<p>
+  		<b>Email:</b>
+</div>
+  		<%=h @user.email %>
+	</p>
+
+
+<div class="titulo">
+	<p>
+  		<b>Nombre:</b>
+</div>
+  		<%=h @user.nombre %>
+		<%=h @user.apellido %>
+	</p>
+	
+	
+<div class="titulo">
+	<p>
+  		<b>Profesion:</b>
+</div>
+  		<%=h @user.profesion %>
+	</p>
+
+<div class="titulo">
 <p>
   <b>Compania:</b>
+</div>
   <%=h @user.compania %>
 </p>
+
+<div class="titulo">
 <p>
   <b>Sitio Web:</b>
+</div>
   <%=h @user.web %>
 </p>
+
+<div class="titulo">
 <p>
-  <b>Pais:</b>
-  <%=h @user.pais %>
+  <b>Ciudad y pais:</b>
+</div>
+	<%=h @user.ciudad %>
+  <%=h @user.pais %> 
+
 </p>
-<p>
-  <b>Ciudad:</b>
-  <%=h @user.ciudad %>
-</p>
+
+<div class="titulo">
 <p>
   <b>Sobre mi:</b>
+</div>
   <%=h @user.about %>
 </p>
 
-
+<div class="titulo">
 <p>
  <b>Intereses:</b>
+</div>
       <%= @user.categorias.map {|x| x.to_label}.join ', ' %>
-    </p>
+</p>
+
+</div>
+
+<div class="cuenta">
+<%= link_to 'Editar mi Cuenta', edit_account_path %>
+</div>
 
 
-<%= link_to 'Edit', edit_account_path %>
+
+
+

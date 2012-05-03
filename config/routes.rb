@@ -1,11 +1,11 @@
 Diseno::Application.routes.draw do
 
 
-  resources :becas
-
   resources :concursos
 
   get "inicio/index"
+  
+  match "facebook" => "https://www.facebook.com", :as => :face 
 
   resources :comentarios
 
@@ -14,6 +14,8 @@ Diseno::Application.routes.draw do
   resources :categorias
 
 resources :user_sessions
+
+match "establece_cookie" => "application#establece_cookie"
   
 match 'login' => "user_sessions#new",      :as => :login
 match 'logout' => "user_sessions#destroy", :as => :logout

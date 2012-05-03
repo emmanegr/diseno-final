@@ -4,7 +4,7 @@ class User < ActiveRecord::Base
   has_many :comentarios
   acts_as_authentic
   
-  has_attached_file :avatar, :styles => { :big => "266x152#", :thumb => "100x100#" }
+  has_attached_file :avatar, :styles => { :big => "466x352#", :thumb => "100x100#" }
 
 
 def active?
