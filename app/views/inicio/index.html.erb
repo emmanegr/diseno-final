@@ -1,37 +1,36 @@
 <div class="general">
 
-<div class="margenes">
-	<div class="row-fluid margenes">
-		<div class="container ">
-			<% @posts = Post.find(:all, :order => "id ASC") %>
-			<%  @posts = Post.paginate(:page => params[:page], :per_page => 2) %>
-  			<% @posts.each do |post| %>
-			<div class="row">
-				<div class="span11 ">
-					<p><%=link_to (image_tag post.fotopost1.url :thumb), post %></p>
+		<div class="row-fluid margenes">
+				<% @posts = Post.find(:all, :order => "id ASC") %>
+				<%  @posts = Post.paginate(:page => params[:page], :per_page => 2) %>
+	  			<% @posts.each do |post| %>
+				<div class="row ">
+					<div class="span11 ">
+						<%=link_to (image_tag post.fotopost1.url :thumb), post %>
+					</div>
 				</div>
-			</div>
 		</div>
-	</div>
-</div>
 
 <div class="row-fluid margenes">	
 	<div class="container">
-		<div class="row">
+		<div class="row borde">
 			<div class="span11 ">
 				<div class="tituloObra">
     				<%=link_to post.titulo, post %>
 				</div>
 			</div>
+			
 			<div class="span11 ">
 				<div class="NombreUsuarioIncio">
     				<%= link_to post.user.name, post.user %>
 				</div>
+			</div>	
 			<div class="span11">
     			<div class="textoJustificado">
 					<%= post.descripcion %>
 				</div>
 			</div>
+			
 			<div class="span3 ">
 				<div class="margenes">
     				<p><%= post.categorias.map {|x| x.to_label}.join ', ' %></p>
