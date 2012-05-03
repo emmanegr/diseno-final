@@ -9,7 +9,7 @@
    
     <p><%=link_to post.titulo, post %></p>
     <p><%= post.descripcion %></p>
-    <p><%= post.user.name %></p>
+    <p><%= link_to post.user.name, post.user %></p>
     <p><%= post.categorias.map {|x| x.to_label}.join ', ' %></p>
     <p><%= post.gusta %></p>
     <p><%= post.nogusta %></p>
