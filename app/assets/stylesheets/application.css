@@ -75,18 +75,20 @@ border-bottom-left-radius: 10px;}
 
 .menuFooter{ background-color:#232323; padding:30px 0; border-top:1px solid #CECECE; border-bottom:1px solid #CECECE;}
 
+.tituloObra a{text-decoration:none; color:#666;font-size:20px; margin:10px; font-weight:bold; }
+.tituloObra a:hover{text-decoration:none; color:#E5E5E5;}
+
 .textocentrado{text-align:center;}
 
 .textoJustificado{text-align:justify;}
 
-.NombreUsuarioIncio p{ font-size:18px; font-style:italic;  color:#232323; text-align:center;}
+.NombreUsuarioIncio { font-size:18px; font-style:italic; text-align:center;}
 
 #DerechosAutor{ font-family: Arial, Helvetica, sans-serif; font-size:16px; color:#D6D6D6; margin:10px; padding:20px 0;}
 
 .borde{border:1px solid red;}
 .bordeAzul{border:1px solid blue;}
 .margenes{margin:20px 0;}
-.tituloObra p{ font-size:20px; margin:10px; font-weight:bold; }
 
 .general {
 	background:#D0D0D0;

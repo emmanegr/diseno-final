@@ -9,10 +9,7 @@
 		<div class="row">
 			<div class="span11 ">
 				<p><%=link_to (image_tag post.fotopost1.url :thumb), post %></p>
-			<div class="span11 ">
-				<p><%= image_tag post.fotopost1.url :thumb %></p>
 			</div>
-		</div>
 	</div>
 </div>
 
@@ -20,21 +17,14 @@
 	<div class="container">
 		<div class="row">
 			<div class="span11 ">
-    			<p><%=link_to post.titulo, post %></p>
-			</div>
-			<div class="span11 ">
-    			<p><%= link_to post.user.name, post.user %></p>
-			<div class="span11 ">
-    			<div class="tituloObra">
-					<p><%= post.titulo %></p>
+				<div class="tituloObra">
+    				<%=link_to post.titulo, post %>
 				</div>
 			</div>
 			<div class="span11 ">
-    			<div class="NombreUsuarioIncio">
-					<p><%= post.user.name %></p>
+				<div class="NombreUsuarioIncio">
+    				<%= link_to post.user.name, post.user %>
 				</div>
-				 holo
-			</div>
 			<div class="span10 ">
     			<div class="textoJustificado">
 					<p><%= post.descripcion %></p>
