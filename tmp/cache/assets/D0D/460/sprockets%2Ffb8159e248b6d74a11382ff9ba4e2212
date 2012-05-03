@@ -1,0 +1,17 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336042649.2374358:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%d318fde63a193ff5d14213221a503f1aI"logical_path;
+FI"banderaEEUU.jpg;
+TI"pathname;
+FI",$root/app/assets/images/banderaEEUU.jpg;
+FI"content_type;
+FI"image/jpeg;
+FI"
+mtime;
+FI"2012-03-15T08:52:31-06:00;
+FI"length;
+FI"	1172;
+FI"digest;
+F"%a98420651c811a130d7b801584010a55I"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5

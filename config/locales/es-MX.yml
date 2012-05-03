@@ -1,5 +1,15 @@
 es-MX:
-  inicio: "Inicio"
+  Inicio: "Inicio"
+  MisPost: "Mis Post"
+  NuevosPost: "Nuevos Post"
+  Concursos: "Consursos"
+  Becas: "Becas"
+  MiCuenta: "Mi Cuenta"
+  Hola: "Hola"
+  CerrarSesion: "Cerrar Sesion"
+  IniciarSesion: "Iniciar Sesion"
+  CrearCuenta: "Crear Cuenta"
+  
   date:
     abbr_day_names:
     - dom

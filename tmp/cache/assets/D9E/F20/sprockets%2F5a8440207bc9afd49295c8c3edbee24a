@@ -1,0 +1,17 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336042649.201599:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%88622ca8f9c0f7b6c9b300d1f58196beI"logical_path;
+FI"banderaMexico.jpg;
+TI"pathname;
+FI".$root/app/assets/images/banderaMexico.jpg;
+FI"content_type;
+FI"image/jpeg;
+FI"
+mtime;
+FI"2012-03-15T08:52:05-06:00;
+FI"length;
+FI"	1040;
+FI"digest;
+F"%f10d47893eee288ac36e525fbc2a8ed4I"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5

@@ -19,15 +19,15 @@
 				<div class="row">
 					<div class="span2">
 						<% if current_user %>
-					<div class="titulo2">	Hola, <%= link_to current_user.name, account_path %></div>
+					<div class="titulo2"><%= t(:Hola) %>	, <%= link_to current_user.name, account_path %></div>
 					</div>
 					<div class="span2">
 						<div class="titulo2">
-							<%= link_to "Cerrar Sesión", logout_path %>
+							<%= link_to t(:CerrarSesion), logout_path %>
 							</div>
 							<% else %>
 							<div class="titulo2">
-							<%= link_to "Iniciar Sesión", login_path %>
+							<%= link_to t(:IniciarSesion), login_path %>
 							</div>
 							<% end %>
 						
@@ -38,10 +38,14 @@
 				
 					<% if !current_user %>
 					<div class="titulo2">
-						<%= link_to "Crear Cuenta", signup_path  %>
+						<%= link_to t(:CrearCuenta), signup_path  %>
 						
 					</div>
 					<% end %>
+			</div>
+			<div class="span2">
+				<%= link_to (image_tag "banderaMexico.jpg", :size => "22x15"), :controller =>"application", :action => "establece_cookie", :locale => "es-MX"%>
+				<%= link_to (image_tag "banderaEEUU.jpg", :size => "22x15"),:controller =>"application", :action => "establece_cookie", :locale => "en"%>
 			</div>
 		</div>
 	</div>
@@ -58,31 +62,31 @@
 				<div class="row container">
 					<div class="span1">
 						<div class="Cabeza">
-							<h1><%= link_to "Inicio" , root_path %> </h1>
+							<h1><%= link_to t(:Inicio) , root_path %> </h1>
 						</div>
 					</div>
 					<div class="span2">
 						<div class="Cabeza">
-							<h1><%= link_to "Mis Posts" , posts_path %> </h1>
-						</div>
-						
-					</div>
-					<div class="span2">
-						<div class="Cabeza">
-							<h1><%= link_to "Nuevo Post", nuevo_path %></h1>
+							<h1><%= link_to t(:MisPost) , posts_path %> </h1>
 						</div>
 						
 					</div>
 					<div class="span2">
 						<div class="Cabeza">
-							<h1><%= link_to "Concursos" , competitions_path %></h1>
+							<h1><%= link_to t(:NuevosPost), nuevo_path %></h1>
+						</div>
+						
+					</div>
+					<div class="span2">
+						<div class="Cabeza">
+							<h1><%= link_to t(:Concursos) , competitions_path %></h1>
 						</div>
 						
 					</div>
 					
 					<div class="span2">
 						<div class="Cabeza">
-							<h1><%= link_to "Becas" , estudia_path %></h1>
+							<h1><%= link_to t(:Becas) , estudia_path %></h1>
 						</div>
 						
 					</div>
@@ -90,7 +94,7 @@
 					<% if current_user %>
 					<div class="span2">
 						<div class="Cabeza">
-							<h1><%= link_to "Mi Cuenta" , :account %></h1>
+							<h1><%= link_to t(:MiCuenta) , :account %></h1>
 						</div>
 						
 					</div>
@@ -181,7 +185,7 @@
 			<div class="row-fluid">
 				<div class="span2">
 					<div class="tituloFooter">
-						<%= link_to "Galería", :account %><div class="imagenFooter"><%= image_tag ("galeria.png") %></div>
+						<%= link_to t(:MisPost) , posts_path %><div class="imagenFooter"><%= image_tag ("galeria.png") %></div>
 					</div>
 					<div class="bordeGris3">
 						<div class="textoImgFooter">Aliquam erat volutpat. Vestibulum tincidunt volutpat fermentum. Duis interdum luctus ipsum, nec accumsan urna sodales vel. Mauris auctor pellentesque luctus.</div>
@@ -189,7 +193,7 @@
 				</div>
 				<div class="span2">
 					<div class="tituloFooter">
-						<%= link_to "Compartir", :account %> <div class="imagenFooter"><%= image_tag ("compartir.png") %></div>
+						<%= link_to t(:NuevosPost), nuevo_path %> <div class="imagenFooter"><%= image_tag ("compartir.png") %></div>
 					</div>
 					<div class="bordeGris3">
 						<div class="textoImgFooter">Etiam viverra hendrerit mollis. Quisque lectus massa, rhoncus vitae rhoncus eget, malesuada non est. </div>
@@ -197,7 +201,7 @@
 				</div>
 				<div class="span2">
 					<div class="tituloFooter">
-						<%= link_to "Concurso", :account %><div class="imagenFooter"><%= image_tag ("concurso.png") %></div>
+						<%= link_to t(:Concursos) , competitions_path %><div class="imagenFooter"><%= image_tag ("concurso.png") %></div>
 					</div>
 					<div class="bordeGris3">
 						<div class="textoImgFooter">Nulla mattis viverra ipsum, vitae convallis purus pharetra eu. Integer varius sem adipiscing lectus rhoncus sed facilisis dui sodales. Sed mollis ultricies rutrum. Integer malesuada augue et odio suscipit et mattis enim adipiscing.</div>
@@ -206,7 +210,7 @@
 				
 				<div class="span3">
 					<div class="tituloFooter">
-						<%= link_to "Becas", :account %><div class="imagenFooter"><%= image_tag ("extrangero.png") %></div>
+						<%= link_to t(:Becas) , estudia_path %><div class="imagenFooter"><%= image_tag ("extrangero.png") %></div>
 					</div>
 					<div class="bordeGris3">
 					<div class="textoImgFooter">Duis vitae lacus vitae nibh blandit semper dapibus id felis. Aenean consectetur, sem ut luctus posuere, purus ligula cursus neque, gravida tristique erat diam eget massa.</div>
@@ -215,7 +219,7 @@
 			
 				<div class="span3">
 					<div class="tituloFooter">
-						<%= link_to "Mi Cuenta", :account %> <div class="imagenFooter"><%= image_tag ("usuario.png") %></div>
+						<%= link_to t(:MiCuenta), :account %> <div class="imagenFooter"><%= image_tag ("usuario.png") %></div>
 					</div>
 					<div class="bordeGris3">
 						<div class="textoImgFooter">Integer ullamcorper sem in diam pretium fringilla. Fusce augue purus, malesuada vel fringilla vitae, consectetur a eros. Sed elementum est sed lorem consequat et ornare leo venenatis. </div>

@@ -36,6 +36,7 @@ match 'send_activation(/:user_id)' => 'users#send_activation', :as => :send_acti
 
 root :to => 'inicio#index'
 
+match "establece_cookie" => "application#establece_cookie"
 
 match 'forgot_password' => 'user_sessions#forgot_password', :as => :forgot_password, :via => :get
 match 'forgot_password' => 'user_sessions#forgot_password_lookup_email', :as => :forgot_password, :via => :post

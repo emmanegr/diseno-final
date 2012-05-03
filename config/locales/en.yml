@@ -3,4 +3,13 @@
 
 en:
   hello: "Hello world"
-  inicio: "Home"
+  Inicio: "Home"
+  MisPost: "My Post"
+  NuevosPost: "New Post"
+  Concursos: "Competition"
+  Becas: "Scholarships"
+  MiCuenta: "My account"
+  Hola: "Hello"
+  CerrarSesion: "Log Out"
+  IniciarSesion: "Log In"
+  CrearCuenta: "Create Account"

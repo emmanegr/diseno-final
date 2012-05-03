@@ -1,47 +1,49 @@
-<p id="notice"><%= notice %></p>
-<p>
-<%= image_tag @beca.fotobeca.url :big %>
+<div class="general">
+		<p id="notice"><%= notice %></p>
+		<p>
+		<%= image_tag @beca.fotobeca.url :big %>
 
-</p>
-<p>
+		</p>
+		<p>
 
-  <h1><%= @beca.nombre %></h1>
-</p>
+		  <div class="titulo"><h1><%= @beca.nombre %></h1></div>
+		</p>
 
-<p>
-  <b>Pais:</b>
-  <%= @beca.pais %>
-</p>
+		<p>
+		  <b>Pais:</b>
+		  <div class="titulo"><%= @beca.pais %></div>
+		</p>
 
-<p>
-  <b>Descripcion:</b>
-  <%= @beca.descripcion %>
-</p>
+		<p>
+		  <b>Descripcion:</b>
+		  <div class="titulo"><%= @beca.descripcion %></div>
+		</p>
 
-<p>
-  <b>Sitio Web:</b>
-  <%= @beca.web %>
-</p>
+		<p>
+		  <b>Sitio Web:</b>
+		  <div class="titulo"><%= @beca.web %></div>
+		</p>
 
-<p>
-  <b>Fecha Limite:</b>
-  <%= @beca.fecha %>
-</p>
+		<p>
+		  <b>Fecha Limite:</b>
+		  <div class="titulo"><%= @beca.fecha %></div>
+		</p>
 
-<p>
-  <b>Carreras Afin:</b>
-  <%= @beca.carreras %>
-</p>
+		<p>
+		  <b>Carreras Afin:</b>
+		  <div class="titulo"><%= @beca.carreras %></div>
+		</p>
 
-<p>
-  <b>Representante:</b>
-  <%= @beca.representante %>
-</p>
+		<p>
+		  <b>Representante:</b>
+		  <div class="titulo"><%= @beca.representante %></div>
+		</p>
 
-<p>
-  <b>Contacto:</b>
-  <%= @beca.contacto %>
-</p>
+		<p>
+		  <b>Contacto:</b>
+		  <div class="titulo"><%= @beca.contacto %></div>
+		</p>
 
 
-<%= link_to 'Back', estudia_path %>
+		<%= link_to 'Back', estudia_path %>
+</div>
