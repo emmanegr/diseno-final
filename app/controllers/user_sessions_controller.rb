@@ -46,5 +46,12 @@ def forgot_password_lookup_email
 end
   
   
+#despues del routes viene al action y hace esto  
+
+  
+  
+  
+  
+  
   
 end
