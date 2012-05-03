@@ -6,7 +6,6 @@ Diseno::Application.routes.draw do
   resources :concursos
 
   get "inicio/index"
-  get "inicio/extranjero"
 
 
   resources :comentarios
