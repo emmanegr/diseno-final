@@ -62,7 +62,7 @@
 </p>
 
 
-
+<% if current_user %>
 <%= form_for (@comentario), :remote => true do |f| %>
 
   <div class="form-inputs">
@@ -76,7 +76,6 @@
     <%= submit_tag 'Comentar'%>
   </div>
 <% end %>
-
 
 <table>
   <tr>
@@ -98,8 +97,29 @@
 <% end %>
 </table>
 
+<%else%>
+<table>
+  <tr>
+    <th>Comentario</th>
+    <th>User</th>
+    <th>Post</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+<% @comentarios = Comentario.find(:all, :order => "id DESC", :conditions =>{:post_id => @post.id}) %>
+<% @comentarios.each do |comentario| %>
+  <tr>
+    <td><%= comentario.contenido %></td>
+    <td><%= comentario.user.name %></td>
+    <td><%= image_tag comentario.user.avatar.url :thumb %></td>
+    <td><%= comentario.updated_at %></td>
+  </tr>
+<% end %>
+</table>
 
 
+<% end %>
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
 <%= link_to 'Back', posts_path %>
