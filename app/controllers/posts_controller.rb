@@ -1,5 +1,7 @@
 class PostsController < ApplicationController
-before_filter :require_user
+before_filter :require_user, :only => [:edit, :delete, :update, :index, :new]
+
+before_filter :require_no_user, :only => [:show]
 
 
 
