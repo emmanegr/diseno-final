@@ -1,6 +1,6 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336044637.256418:@value{	I"length:EFiJI"digest;
-F"%a505f17e8f2991b6dfaef5776268e8ddI"source;
-FI"J/*
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336051200.96821:@value{	I"length:EFigI"digest;
+F"%013e16d5b24659cd1f32b1f9db2dce40I"source;
+FI"g/*
  * This is a manifest file that'll automatically include all the stylesheets available in this directory
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
@@ -98,6 +98,7 @@ border-bottom-left-radius: 10px;}
 .bordeAzul{border:1px solid blue;}
 .margenes{margin:20px 0;}
 .margenes2{margin:10px 50px; font-size:18px;}
+.algomas{margin:70px 0 0 0;}
 
 .general {
 	background:#EDEDED;
@@ -5624,4 +5625,4 @@ div.field, div.actions {
 
 ;
 FI"_version;
-F"%fc8dddfd9403c74139553f6ce5b46bbb
+F"%2cc116b2ebe76cf0df08c0fa34140850

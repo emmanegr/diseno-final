@@ -19,14 +19,14 @@
 				<div class="row">
 					<div class="span2">
 						<% if current_user %>
-					<div class="titulo2"><%= t(:Hola) %>	, <%= link_to current_user.name, account_path %></div>
+					<div class="titulo2 algomas"><%= t(:Hola) %>	, <%= link_to current_user.name, account_path %></div>
 					</div>
 					<div class="span2">
-						<div class="titulo2">
+						<div class="titulo2 algomas">
 							<%= link_to t(:CerrarSesion), logout_path %>
 							</div>
 							<% else %>
-							<div class="titulo2">
+							<div class="titulo2 algomas">
 							<%= link_to t(:IniciarSesion), login_path %>
 							</div>
 							<% end %>
@@ -37,13 +37,13 @@
 			<div class="span2">
 				
 					<% if !current_user %>
-					<div class="titulo2">
+					<div class="titulo2 algomas">
 						<%= link_to t(:CrearCuenta), signup_path  %>
 						
 					</div>
 					<% end %>
 			</div>
-			<div class="span2">
+			<div class="span1 algomas">
 				<%= link_to (image_tag "banderaMexico.jpg", :size => "22x15"), :controller =>"application", :action => "establece_cookie", :locale => "es-MX"%>
 				<%= link_to (image_tag "banderaEEUU.jpg", :size => "22x15"),:controller =>"application", :action => "establece_cookie", :locale => "en"%>
 			</div>
