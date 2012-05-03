@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336006056.3052769:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336009168.244896:@value{I"
 class:EFI"BundledAsset;
 FI"id;
-F"%4f85e7c752d6f4435b238f7eca5987e5I"logical_path;
+F"%d9a5a8554388a0b22c82659845f5a8deI"logical_path;
 FI"application.css;
 TI"pathname;
 FI"1$root/app/assets/stylesheets/application.css;
@@ -9,9 +9,9 @@ FI"content_type;
 FI"text/css;
 FI"
 mtime;
-FI"2012-05-02T19:47:34-05:00;
+FI"2012-05-02T20:39:25-05:00;
 FI"	body;
-FI";/*
+FI"/*
  * This is a manifest file that'll automatically include all the stylesheets available in this directory
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
@@ -35,6 +35,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', end
 .Cabeza a{ font-size:18px; color:white; text-decoration:none;}
 .Cabeza img{ padding:0 0 0 30px; border:1px solid red;}
 .Cabeza a:hover{color:#CCCCCC; text-decoration:none;}
+
+.popo:active{background:red; padding:10px; border:1px solid red;}
+
 .bordeGris{border-top:1px solid #444444;}
 .bordeGris2{border-top:1px solid #aaaaaa;}
 .bordeGris3{border-top:1px solid #D8D8D8; margin:10px 0 0 0;}
@@ -178,13 +181,13 @@ F[{I"	path;
 FI"1$root/app/assets/stylesheets/application.css;
 FI"
 mtime;
-FIu:	Time`Ä   æ:@_zoneI"CDT;
+FIu:	TimeaÄ  êù:@_zoneI"CDT;
 T:offseti˛∞πI"hexdigest;
-F"%651b75f8d0f5c18f8aaee951152c2fd2{I"	path;
+F"%3531e2cf8f4d43aea68bbfca7143856f{I"	path;
 FI"!$root/app/assets/stylesheets;
 FI"
 mtime;
-FIu;`Ä  09;I"CDT;
+FIu;aÄ  ‡$;I"CDT;
 T;i˛∞πI"hexdigest;
 F"%0a29ad0c24fcd68aad1f8b25e566db3e{I"	path;
 FI":$root/app/assets/stylesheets/bootstrap-responsive.css;
