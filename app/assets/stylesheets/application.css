@@ -140,4 +140,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', end
 
 #DerechosAutor{ font-family: Arial, Helvetica, sans-serif; font-size:16px; color:#D6D6D6; margin:10px; padding:20px 0;}
 
+.borde{border:1px solid red;}
+.bordeAzul{border:1px solid blue;}
+.margenes{margin:20px 0;}
+
+.general {
+	background:#D0D0D0;
+	padding:15px;
+	margin:10px;
+	border:10px solid gray;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.imagen {
+	float: right;
+	margin: 50px;	
+}
+
+.titulo {
+	color:#808080;
+}
+
+.cuenta {
+	float:right;
+	padding:10px;
+}
+
 
