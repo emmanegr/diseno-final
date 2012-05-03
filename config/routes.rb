@@ -6,6 +6,8 @@ Diseno::Application.routes.draw do
   resources :concursos
 
   get "inicio/index"
+  get "inicio/extranjero"
+
 
   resources :comentarios
 
@@ -22,7 +24,7 @@ resources :users  # give us our some normal resource routes for users
 resource :user, :as => 'account'  # a convenience route
 
 match 'signup' => 'users#new', :as => :signup
-
+match 'extranjero' => 'index#extranjero'
 
 
 match 'activate(/:activation_code)' => 'users#activate', :as => :activate_account

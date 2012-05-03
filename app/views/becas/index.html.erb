@@ -21,14 +21,15 @@
     <td><%= beca.pais %></td>
     <td><%= beca.fecha %></td>
     <td><%= beca.carreras %></td>
-    
+   
     <td><%= link_to 'Show', beca %></td>
     <td><%= link_to 'Edit', edit_beca_path(beca) %></td>
     <td><%= link_to 'Destroy', beca, confirm: 'Are you sure?', method: :delete %></td>
+
   </tr>
 <% end %>
 </table>
 
 <br />
-
+   
 <%= link_to 'New Beca', new_beca_path %>
