@@ -1,2 +1,16 @@
-<h1>Inicio#index</h1>
-<p>Find me in app/views/inicio/index.html.erb</p>
+<h1>Trabajos mas recientes</h1>
+<% @posts = Post.find(:all, :order => "id DESC") %>
+
+  <% @posts.each do |post| %>
+  <div>
+    <p><%= image_tag post.fotopost1.url :thumb %></p>
+    <p><%= post.titulo %></p>
+    <p><%= post.descripcion %></p>
+    <p><%= post.user.name %></p>
+    <p><%= post.categorias.map {|x| x.to_label}.join ', ' %></p>
+    <p><%= post.gusta %></p>
+    <p><%= post.nogusta %></p>
+    <p><%= post.vistas %></p>
+    <p></p>
+ </div>
+<% end %>
