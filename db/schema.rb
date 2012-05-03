@@ -58,17 +58,6 @@ ActiveRecord::Schema.define(:version => 20120502214218) do
 
   add_index "concursos", ["categoria_id"], :name => "index_concursos_on_categoria_id"
 
-  create_table "gustas", :force => true do |t|
-    t.boolean  "megusta"
-    t.integer  "user_id"
-    t.integer  "post_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "gustas", ["post_id"], :name => "index_gustas_on_post_id"
-  add_index "gustas", ["user_id"], :name => "index_gustas_on_user_id"
-
   create_table "posts", :force => true do |t|
     t.string   "titulo"
     t.string   "subtitulo"

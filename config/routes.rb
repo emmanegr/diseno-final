@@ -4,8 +4,6 @@ Diseno::Application.routes.draw do
   resources :concursos
 
   get "inicio/index"
-  
-  match "facebook" => "https://www.facebook.com", :as => :face 
 
   resources :comentarios
 
