@@ -4,6 +4,7 @@
   
   <h1><%= @concurso.titulo %></h1>
 </p>
+<%= image_tag @concurso.fotoconcurso.url :big %>
 <p>
   <b>Sitio Web:</b>
   <%= @concurso.web %>
@@ -15,7 +16,7 @@
 </p>
 
 <p>
-  <b>Descripcion:</b>
+
   <%= @concurso.descripcion %>
 </p>
 

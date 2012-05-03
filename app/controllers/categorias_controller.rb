@@ -1,4 +1,6 @@
 class CategoriasController < ApplicationController
+
+before_filter :es_admin, :only => [:edit, :destroy, :new, :update, :show, :index]
   # GET /categorias
   # GET /categorias.json
   def index
