@@ -102,8 +102,9 @@ border-bottom-left-radius: 10px;}
 }
 
 .imagen {
-	float: right;
-	margin: 50px;	
+	text-align:center;
+	margin: 50px;
+		
 }
 
 .titulo {

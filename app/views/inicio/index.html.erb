@@ -25,13 +25,15 @@
 				<div class="NombreUsuarioIncio">
     				<%= link_to post.user.name, post.user %>
 				</div>
-			<div class="span10 ">
+			<div class="span11">
     			<div class="textoJustificado">
-					<p><%= post.descripcion %></p>
+					<%= post.descripcion %>
 				</div>
 			</div>
 			<div class="span3 ">
-    			<p><%= post.categorias.map {|x| x.to_label}.join ', ' %></p>
+				<div class="margenes">
+    				<p><%= post.categorias.map {|x| x.to_label}.join ', ' %></p>
+				</div>
 			</div>
 			<div class="span3 ">
     			<p><%= post.gusta %></p>
@@ -43,11 +45,10 @@
     			<p><%= post.vistas %></p>
     		</div>
 			<p></p>
-		</div>
-
 			
-		<% end %>
+		</div>
+<% end %>
 	</div>
 </div>
-</div>
+
 <%= will_paginate @posts %>

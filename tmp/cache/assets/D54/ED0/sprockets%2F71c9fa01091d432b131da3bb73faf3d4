@@ -1,6 +1,6 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336031227.168138:@value{	I"length:EFiI"digest;
-F"%21199838319600dae8eef73b08c15302I"source;
-FI"/*
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336032699.2627158:@value{	I"length:EFiI"digest;
+F"%8f7383a33e8893475ec11802eb4a95b4I"source;
+FI"/*
  * This is a manifest file that'll automatically include all the stylesheets available in this directory
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
@@ -103,8 +103,9 @@ border-bottom-left-radius: 10px;}
 }
 
 .imagen {
-	float: right;
-	margin: 50px;	
+	text-align:center;
+	margin: 50px;
+		
 }
 
 .titulo {
@@ -5602,4 +5603,4 @@ div.field, div.actions {
 
 ;
 FI"_version;
-F"%a55495d05e9cb19a4d02db96bb8a83e7
+F"%d9bdb253161b03b7171acfb06bd19305
