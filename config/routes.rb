@@ -1,6 +1,10 @@
 Diseno::Application.routes.draw do
 
 
+  get "contenido/competitions"
+
+  get "contenido/estudia"
+
   resources :becas
 
   resources :concursos
@@ -23,8 +27,9 @@ resources :users  # give us our some normal resource routes for users
 resource :user, :as => 'account'  # a convenience route
 
 match 'signup' => 'users#new', :as => :signup
-match 'extranjero' => 'index#extranjero'
 
+match 'competitions' => 'contenido#competitions'
+match 'estudia' => 'contenido#estudia'
 
 match 'activate(/:activation_code)' => 'users#activate', :as => :activate_account
 match 'send_activation(/:user_id)' => 'users#send_activation', :as => :send_activation
