@@ -1,2 +1,17 @@
-<h1>Contenido#competitions</h1>
-<p>Find me in app/views/contenido/competitions.html.erb</p>
+<div class="margenes">
+	<div class="row-fluid margenes">
+		<div class="container ">
+			<% @concursos = Concurso.find(:all, :order => "id DESC") %>
+			<%  @concursos = Concurso.paginate(:page => params[:page], :per_page => 8) %>
+  			<% @concursos.each do |concurso| %>
+			
+					<p><%=link_to (image_tag concurso.fotoconcurso.url :thumb), concurso %></p>
+	
+					<p><%=link_to concurso.titulo, concurso %></p>
+					<p><%= concurso.entrega %></p>
+					<p><%= concurso.descripcion %></p>
+		<% end %>
+	</div>
+</div>
+</div>
+<%= will_paginate @concursos %>

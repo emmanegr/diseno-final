@@ -29,6 +29,7 @@
   <b>Premio:</b>
   <%= @concurso.premio %>
 </p>
-
+<% if current_user.admin? %>
 <%= link_to 'Edit', edit_concurso_path(@concurso) %> |
-<%= link_to 'Back', concursos_path %>
+<% end %>
+<%= link_to 'Back', competitions_path %>

@@ -2,7 +2,7 @@ class ConcursosController < ApplicationController
   # GET /concursos
   # GET /concursos.json
   
-  before_filter :es_admin, :only => [:edit, :destroy, :new, :update]
+  before_filter :es_admin, :only => [:edit, :destroy, :new, :update, :index]
   def index
     @concursos = Concurso.all
 
