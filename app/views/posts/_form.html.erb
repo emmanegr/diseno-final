@@ -1,20 +1,25 @@
-<%= simple_form_for(@post) do |f|  %>
-  <%= f.error_notification %>
+<div class="general">
+	<div class="row-fluid">
+		<div class="container">
+			<%= simple_form_for(@post) do |f|  %>
+			  <%= f.error_notification %>
+			  <div class="form-inputs">
+			    <%= f.input :titulo, :label => 'Titulo de Proyecto' %>
+			    <%= f.input :subtitulo, :label => 'Subtitulo de Proyecto' %>
+			    <%= f.input :descripcion, :label => 'Descripcion' %>
+			    <%= f.text_field :user_id, :value => current_user.id, :type => "hidden" %>
+			    <%= f.association :categorias, :as => :check_boxes, :label => 'Categoria'  %>
+			    <%= f.input :fotopost1, :label => 'Imagen 1' %>
+			    <%= f.input :fotopost2, :label => 'Imagen 2' %>
+			    <%= f.input :fotopost3, :label => 'Imagen 3' %>
+			    <%= f.input :fotopost4, :label => 'Imagen 4' %>
+			    <%= f.input :fotopost5, :label => 'Imagen 5' %>
+			  </div>
 
-  <div class="form-inputs">
-    <%= f.input :titulo, :label => 'Titulo de Proyecto' %>
-    <%= f.input :subtitulo, :label => 'Subtitulo de Proyecto' %>
-    <%= f.input :descripcion, :label => 'Descripcion' %>
-    <%= f.text_field :user_id, :value => current_user.id, :type => "hidden" %>
-    <%= f.association :categorias, :as => :check_boxes, :label => 'Categoria'  %>
-    <%= f.input :fotopost1, :label => 'Imagen 1' %>
-    <%= f.input :fotopost2, :label => 'Imagen 2' %>
-    <%= f.input :fotopost3, :label => 'Imagen 3' %>
-    <%= f.input :fotopost4, :label => 'Imagen 4' %>
-    <%= f.input :fotopost5, :label => 'Imagen 5' %>
-  </div>
-
-  <div class="form-actions">
-    <%= f.button :submit %>
-  </div>
-<% end %>
+			  <div class="form-actions">
+			    <%= f.button :submit %>
+			  </div>
+			<% end %>
+		</div>
+	</div>
+</div>

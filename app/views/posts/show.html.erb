@@ -1,3 +1,4 @@
+
 <p id="notice"><%= notice %></p>
 
 <p>
@@ -100,3 +101,137 @@
 
 
 <%= link_to 'Back', root_path %>
+<div class="general">
+	<div class="row">
+		<div class="container">
+				<p id="notice"><%= notice %></p>
+
+				<p>
+				  <b>Titulo:</b>
+				  <%= @post.titulo %>
+				</p>
+
+				<p>
+				  <b>Subtitulo:</b>
+				  <%= @post.subtitulo %>
+				</p>
+
+				<p>
+				  <b>Descripcion:</b>
+				  <%= @post.descripcion %>
+				</p>
+
+				<p>
+				  <b>Usuario:</b>
+				  <%= @post.user.name %>
+				</p>
+
+				<p>
+				  <b>Me Gusta:</b>
+				  <%= @post.gusta %>
+				</p>
+
+				<p>
+				  <b>No me gusta:</b>
+				  <%= @post.nogusta %>
+				</p>
+
+
+				<p>
+				  <b>Numero de Vistas:</b>
+				  <%= @post.vistas %>
+				</p>
+
+				<p>
+				  <b>Categoria:</b>
+				  <%= @post.categorias.map {|x| x.to_label}.join ', ' %>
+				</p>
+				<p>
+				<%= image_tag @post.fotopost1.url :big %>
+
+				</p>
+				<p>
+				<%= image_tag @post.fotopost2.url :big %>
+
+				</p>
+				<p>
+				<%= image_tag @post.fotopost3.url :big %>
+
+				</p>
+				<p>
+				<%= image_tag @post.fotopost4.url :big %>
+
+				</p>
+				<p>
+				<%= image_tag @post.fotopost5.url :big %>
+
+				</p>
+
+
+				<% if current_user %>
+				<%= form_for (@comentario), :remote => true do |f| %>
+
+				  <div class="form-inputs">
+				    <%= f.label "Comentario:" %>
+				    <%= f.text_area :contenido%>
+				    <%= f.text_field :user_id, :value => current_user.id, :type => "hidden" %>
+				    <%= f.text_field :post_id, :value => @post.id, :type => "hidden" %>
+				  </div>
+
+				  <div class="form-actions">
+				    <%= submit_tag 'Comentar'%>
+				  </div>
+				<% end %>
+
+				<table>
+				  <tr>
+				    <th>Comentario</th>
+				    <th>User</th>
+				    <th>Post</th>
+				    <th></th>
+				    <th></th>
+				    <th></th>
+				  </tr>
+				<% @comentarios = Comentario.find(:all, :order => "id DESC", :conditions =>{:post_id => @post.id}) %>
+				<% @comentarios.each do |comentario| %>
+				  <tr>
+				    <td><%= comentario.contenido %></td>
+				    <td><%= comentario.user.name %></td>
+				    <td><%= image_tag comentario.user.avatar.url :thumb %></td>
+				    <td><%= comentario.updated_at %></td>
+				  </tr>
+				<% end %>
+				</table>
+
+				<%else%>
+				<table>
+				  <tr>
+				    <th>Comentario</th>
+				    <th>User</th>
+				    <th>Post</th>
+				    <th></th>
+				    <th></th>
+				    <th></th>
+				  </tr>
+				<% @comentarios = Comentario.find(:all, :order => "id DESC", :conditions =>{:post_id => @post.id}) %>
+				<% @comentarios.each do |comentario| %>
+				  <tr>
+				    <td><%= comentario.contenido %></td>
+				    <td><%= comentario.user.name %></td>
+				    <td><%= image_tag comentario.user.avatar.url :thumb %></td>
+				    <td><%= comentario.updated_at %></td>
+				  </tr>
+				<% end %>
+				</table>
+
+
+				<% end %>
+				<% if @post.user.id == current_user.id %>
+
+				<%= link_to 'Edit', edit_post_path(@post) %>
+				<% end %>
+
+				<%= link_to 'Back', root_path %>
+		</div>
+	</div>
+</div>
