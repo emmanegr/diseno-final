@@ -23,9 +23,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', end
 .Cabeza a{ font-size:18px; color:white; text-decoration:none;}
 .Cabeza img{ padding:0 0 0 30px; border:1px solid red;}
 .Cabeza a:hover{color:#CCCCCC; text-decoration:none;}
-
-.popo:active{background:red; padding:10px; border:1px solid red;}
-
 .bordeGris{border-top:1px solid #444444;}
 .bordeGris2{border-top:1px solid #aaaaaa;}
 .bordeGris3{border-top:1px solid #D8D8D8; margin:10px 0 0 0;}

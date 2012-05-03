@@ -1,6 +1,8 @@
 Diseno::Application.routes.draw do
 
 
+  resources :becas
+
   resources :concursos
 
   get "inicio/index"

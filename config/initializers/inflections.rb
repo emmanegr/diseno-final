@@ -10,6 +10,7 @@ inflect.irregular 'categoria', 'categorias'
 inflect.irregular 'post', 'posts'
 inflect.irregular 'comentario', 'comentarios'
 inflect.irregular 'concurso', 'concursos'
+inflect.irregular 'beca', 'becas'
 
 #   inflect.uncountable %w( fish sheep )
 end

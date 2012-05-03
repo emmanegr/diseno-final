@@ -11,7 +11,24 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120502214218) do
+ActiveRecord::Schema.define(:version => 20120503000404) do
+
+  create_table "becas", :force => true do |t|
+    t.string   "nombre"
+    t.string   "pais"
+    t.string   "web"
+    t.string   "fecha"
+    t.text     "carreras"
+    t.string   "representante"
+    t.string   "contacto"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.text     "descripcion"
+    t.string   "fotobeca_file_name"
+    t.string   "fotobeca_content_type"
+    t.integer  "fotobeca_file_size"
+    t.datetime "fotobeca_updated_at"
+  end
 
   create_table "categorias", :force => true do |t|
     t.string   "nombre"
