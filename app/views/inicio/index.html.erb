@@ -1,15 +1,15 @@
 <div class="margenes">
-<div class="row-fluid margenes">
-	<div class="container ">
-<% @posts = Post.find(:all, :order => "id DESC") %>
-
-
-<%  @posts = Post.paginate(:page => params[:page], :per_page => 2) %>
-  <% @posts.each do |post| %>
-		<div class="row">
-			<div class="span11 ">
-				<p><%=link_to (image_tag post.fotopost1.url :thumb), post %></p>
+	<div class="row-fluid margenes">
+		<div class="container ">
+			<% @posts = Post.find(:all, :order => "id DESC") %>
+			<%  @posts = Post.paginate(:page => params[:page], :per_page => 2) %>
+  			<% @posts.each do |post| %>
+			<div class="row">
+				<div class="span11 ">
+					<p><%=link_to (image_tag post.fotopost1.url :thumb), post %></p>
+				</div>
 			</div>
+		</div>
 	</div>
 </div>
 
@@ -46,8 +46,8 @@
 		</div>
 
 			
-<% end %>
-</div>
+		<% end %>
+	</div>
 </div>
 </div>
 <%= will_paginate @posts %>

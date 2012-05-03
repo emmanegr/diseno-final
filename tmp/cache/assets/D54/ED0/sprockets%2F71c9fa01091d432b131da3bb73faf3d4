@@ -1,6 +1,6 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336028872.256279:@value{	I"length:EFiœI"digest;
-F"%a4786de11a9e1f07ad3effe395e61827I"source;
-FI"œ/*
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336028911.0636868:@value{	I"length:EFi«I"digest;
+F"%f29eccf641ade74810c1283e43a74a92I"source;
+FI"«/*
  * This is a manifest file that'll automatically include all the stylesheets available in this directory
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
@@ -76,7 +76,7 @@ border-bottom-left-radius: 10px;}
 
 .menuFooter{ background-color:#232323; padding:30px 0; border-top:1px solid #CECECE; border-bottom:1px solid #CECECE;}
 
-.tituloObra a{text-decoration:none; color:#666; margin:10px; font-weight:bold; }
+.tituloObra a{text-decoration:none; color:#666;font-size:20px; margin:10px; font-weight:bold; }
 .tituloObra a:hover{text-decoration:none; color:#E5E5E5;}
 
 .textocentrado{text-align:center;}
@@ -5598,4 +5598,4 @@ div.field, div.actions {
 
 ;
 FI"_version;
-F"%713be672aac0dbb4ea99782fc9920f90
+F"%432cc75748e5fe069ba07550f032e1ec

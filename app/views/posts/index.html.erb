@@ -1,5 +1,8 @@
+
 <h1>Mis Posts</h1>
 <% if current_user.admin? %>
+<h1>Listing posts</h1>
+<div class="row-fluid fondo2">
 <table>
   <tr>
     <th></th>
@@ -75,3 +78,4 @@
 
 <%= link_to 'New Post', new_post_path %>
 <%end %>
+</div>
