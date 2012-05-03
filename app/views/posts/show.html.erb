@@ -67,8 +67,8 @@
 
   <div class="form-inputs">
     <%= f.input :contenido %>
-    <%= f.text_field :user_id, :value => current_user.id %>
-    <%= f.text_field :post_id, :value => @post.id %>
+    <%= f.text_field :user_id, :value => current_user.id, :type => "hidden" %>
+    <%= f.text_field :post_id, :value => @post.id, :type => "hidden" %>
   </div>
 
   <div class="form-actions">
@@ -89,7 +89,7 @@
 <% @comentarios = Comentario.find(:all, :conditions =>{:post_id => @post.id}) %>
 <% @comentarios.each do |comentario| %>
   <tr>
-    <td><%= comentario.contenido %></td>
+    <td><%= comentario.contenido  %></td>
     <td><%= comentario.user.name %></td>
     <td><%= image_tag comentario.user.avatar.url :thumb %></td>
   </tr>
