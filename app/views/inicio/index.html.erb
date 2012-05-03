@@ -1,6 +1,6 @@
-
-<div class="row-fluid  borde">
-	<div class="container bordeAzul">
+<div class="margenes">
+<div class="row-fluid margenes">
+	<div class="container ">
 <% @posts = Post.find(:all, :order => "id DESC") %>
 
 
@@ -9,11 +9,14 @@
 		<div class="row">
 			<div class="span11 bordeAzul">
 				<p><%=link_to (image_tag post.fotopost1.url :thumb), post %></p>
+			<div class="span11 ">
+				<p><%= image_tag post.fotopost1.url :thumb %></p>
 			</div>
 		</div>
 	</div>
 </div>
-<div class="row-fluid borde">	
+
+<div class="row-fluid margenes">	
 	<div class="container">
 		<div class="row">
 			<div class="span11 borde">
@@ -21,24 +24,40 @@
 			</div>
 			<div class="span11 borde">
     			<p><%= link_to post.user.name, post.user %></p>
+			<div class="span11 ">
+    			<div class="tituloObra">
+					<p><%= post.titulo %></p>
+				</div>
 			</div>
-			<div class="span10 borde">
-    			<p><%= post.descripcion %></p>
+			<div class="span11 ">
+    			<div class="NombreUsuarioIncio">
+					<p><%= post.user.name %></p>
+				</div>
+				 holo
 			</div>
-			<div class="span3 borde">
+			<div class="span10 ">
+    			<div class="textoJustificado">
+					<p><%= post.descripcion %></p>
+				</div>
+			</div>
+			<div class="span3 ">
     			<p><%= post.categorias.map {|x| x.to_label}.join ', ' %></p>
 			</div>
-			<div class="span3 borde">
+			<div class="span3 ">
     			<p><%= post.gusta %></p>
     		</div>
-			<div class="span3 borde">
+			<div class="span3 ">
 				<p><%= post.nogusta %></p>
 			</div>
-    		<p><%= post.vistas %></p>
-    		<p></p>
+			<div class="span3 ">
+    			<p><%= post.vistas %></p>
+    		</div>
+			<p></p>
 		</div>
 
+			
 <% end %>
-<%= will_paginate @posts %>
-	</div>
 </div>
+</div>
+</div>
+<%= will_paginate @posts %>
