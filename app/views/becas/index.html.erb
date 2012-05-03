@@ -1,0 +1,34 @@
+<h1>Becas para Estudiar en el Extranjero</h1>
+
+<table>
+  <tr>
+  	<th></th>
+    <th></th>
+    <th>Pais</th>
+    
+    <th>Fecha</th>
+    <th>Carreras</th>
+    
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @becas.each do |beca| %>
+  <tr>
+  	<td><%= image_tag beca.fotobeca.url :big %></td>
+    <td><h2><%= beca.nombre %></h2></td>
+    <td><%= beca.pais %></td>
+    <td><%= beca.fecha %></td>
+    <td><%= beca.carreras %></td>
+    
+    <td><%= link_to 'Show', beca %></td>
+    <td><%= link_to 'Edit', edit_beca_path(beca) %></td>
+    <td><%= link_to 'Destroy', beca, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Beca', new_beca_path %>

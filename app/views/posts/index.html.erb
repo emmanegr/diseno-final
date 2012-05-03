@@ -2,8 +2,8 @@
 
 <table>
   <tr>
+    <th></th>
     <th>Titulo</th>
-    <th>Subtitulo</th>
     <th>Descripcion</th>
     <th>User</th>
     <th>Gusta</th>
@@ -17,8 +17,8 @@
 
 <% @posts.each do |post| %>
   <tr>
+    <td><%= image_tag post.fotopost1.url :thumb %></td>
     <td><%= post.titulo %></td>
-    <td><%= post.subtitulo %></td>
     <td><%= post.descripcion %></td>
     <td><%= post.user.name %></td>
     <td><%= post.gusta %></td>

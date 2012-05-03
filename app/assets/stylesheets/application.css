@@ -19,7 +19,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', end
 .fondo2{ background:#CCCCCC;}
 .fomdo3{background:#E5E5E5; background-image: url("assets/images/pattern.png") background-repeat:repeat-x;}
 .Contenedor{width:960px; margin:0 auto; padding:0px;}
-.Cabeza a{ border:1px solid red; font-size:18px; color:white; text-decoration:none;}
+.Cabeza{ text-align:center; margin:20px 0;}
+.Cabeza a{ font-size:18px; color:white; text-decoration:none;}
+.Cabeza img{ padding:0 0 0 30px; border:1px solid red;}
 .Cabeza a:hover{color:#CCCCCC; text-decoration:none;}
 .bordeGris{border-top:1px solid #444444;}
 .bordeGris2{border-top:1px solid #aaaaaa;}
