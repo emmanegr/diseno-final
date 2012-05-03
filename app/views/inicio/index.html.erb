@@ -4,7 +4,7 @@
 	<div class="row-fluid margenes">
 		<div class="container ">
 			<% @posts = Post.find(:all, :order => "id ASC") %>
-			<%  @posts = Post.paginate(:page => params[:page], :per_page => 8) %>
+			<%  @posts = Post.paginate(:page => params[:page], :per_page => 2) %>
   			<% @posts.each do |post| %>
 			<div class="row">
 				<div class="span11 ">
