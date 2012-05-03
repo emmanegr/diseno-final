@@ -1,11 +1,5 @@
 es-MX:
   inicio: "Inicio"
-<<<<<<< HEAD
-=======
-  hi: "Hola"
-  cerrar:"Cerrar Sesión"
-  
->>>>>>> es-MX
   date:
     abbr_day_names:
     - dom
