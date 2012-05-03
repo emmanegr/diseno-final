@@ -9,71 +9,94 @@
 <div class="titulo">
 	<p>
   		<b>Usuario:</b>
-</div>
-  		<%=h @user.name %>
 	</p>
+</div>
+<div class="margenes2">
+  		<%=h @user.name %>
+</div>
 
 
 <div class="titulo">
 	<p>
   		<b>Email:</b>
-</div>
-  		<%=h @user.email %>
+		
 	</p>
-
+</div>
+<div class="margenes2">
+  		<%=h @user.email %>
+</div>
 
 <div class="titulo">
 	<p>
   		<b>Nombre:</b>
+	</p>
 </div>
+<div class="margenes2">
   		<%=h @user.nombre %>
 		<%=h @user.apellido %>
-	</p>
+</div>
 	
 	
 <div class="titulo">
 	<p>
   		<b>Profesion:</b>
-</div>
-  		<%=h @user.profesion %>
 	</p>
+</div>
+<div class="margenes2">
+  		<%=h @user.profesion %>
+</div>
 
 <div class="titulo">
 <p>
+
   <b>Compania:</b>
-</div>
-  <%=h @user.compania %>
+
+
 </p>
+</div>
+
+<div class="margenes2">
+  <%=h @user.compania %>
+</div>
+
 
 <div class="titulo">
 <p>
   <b>Sitio Web:</b>
-</div>
-  <%=h @user.web %>
 </p>
+</div>
+<div class="margenes2">
+  <%=h @user.web %>
+</div>
 
 <div class="titulo">
 <p>
   <b>Ciudad y pais:</b>
-</div>
-	<%=h @user.ciudad %>
-  <%=h @user.pais %> 
 
 </p>
+</div>
+<div class="margenes2">
+	<%=h @user.ciudad %>
+  <%=h @user.pais %> 
+</div>
 
 <div class="titulo">
 <p>
   <b>Sobre mi:</b>
-</div>
-  <%=h @user.about %>
 </p>
+</div>
+<div class="margenes2">
+  <%=h @user.about %>
+</div>
 
 <div class="titulo">
 <p>
  <b>Intereses:</b>
-</div>
-      <%= @user.categorias.map {|x| x.to_label}.join ', ' %>
 </p>
+</div>
+<div class="margenes2">
+      <%= @user.categorias.map {|x| x.to_label}.join ', ' %>
+</div>
 
 </div>
 
